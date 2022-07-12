@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Julián Perna Portafolio </title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <script defer src="js/main.js"></script>
   <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
@@ -36,7 +37,7 @@ integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd
       </nav>
   </header >
   <main class="main__container">
-    <h2 class="main__title">Hola👋, Mi nombre es <span class="main__nombre"> Julián Perna</span> y soy <p class="main__subtitle"> Desarrollador Frontend </p></h2>
+    <h2 class="main__title" data-aos="fade-right">Hola👋, Mi nombre es <span class="main__nombre"data-aos="fade-right"> Julián Perna</span> y soy <p class="main__subtitle"data-aos="fade-right"> Desarrollador Frontend </p></h2>
     <picture class="main__picture__container">
       <img class="main__picture" src="assets/yo.jpg" alt="soy Julián">
     </picture>
@@ -106,7 +107,7 @@ buscando la superación personal.</p>
       <div class="card__header card__header--veterinaria"></div>
       <div class="card__content card__content--veterinaria">
         <h2 class="card__veterinaria">Veterinaria Sonrisas</h2>
-        <p class="card__description card__description--veterinaria">Proyecto web en el que podes leer, crear, editar y borrar datos acerca de una veterinaria.
+        <p class="card__description card__description--veterinaria">Proyecto en el que podes leer, crear, editar y borrar datos acerca de una veterinaria.
           <span class="card__tecnologias card__tecnologias--veterinaria">Tecnologias: Html, Css, Javascript y Bootstrap</span>
         </p>
       </div>
@@ -159,5 +160,11 @@ buscando la superación personal.</p>
       <p class="footer">&nbsp; © <script>document.write(new Date().getFullYear())</script> Julián Perna </p>
     </footer>
   </main>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration:2000
+    });
+  </script>
 </body>
 </html>
