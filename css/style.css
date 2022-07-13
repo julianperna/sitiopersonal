@@ -784,11 +784,32 @@ h3 {
   }
 }
 @media screen and (min-width: 401px) {
+  .main__picture{
+    transform: translate(4rem);
+    -webkit-transform: translate(4rem);
+    -moz-transform: translate(4rem);
+    -ms-transform: translate(4rem);
+    -o-transform: translate(4rem);
+}
   .main__about {
     height: 15rem;
   }
+  .main__acerca {
+    padding-left: 7rem;
+    width: 100%;
+    max-width: 480px;
+  }
   .main__descargar {
-    margin-left: 2rem;
+    margin-left: 4rem;
+  }
+  .main__tecnologias{
+    padding-left: 7.5rem;
+  }
+  .main__proyectos{
+margin-left: 3rem;
+  }
+  .main__contacto{
+    margin-left: 3rem;
   }
 }
 @media screen and (min-width: 425px) {
