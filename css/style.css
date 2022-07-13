@@ -783,7 +783,44 @@ h3 {
     max-width: 480px;
   }
 }
-@media screen and (min-width: 365px) {
+@media screen and (min-width: 364px) {
+  .main__picture{
+     transform: translate(3rem);
+     -webkit-transform: translate(3rem);
+     -moz-transform: translate(3rem);
+     -ms-transform: translate(3rem);
+     -o-transform: translate(3rem);
+}
+  .main__about {
+    height: 15rem;
+  }
+  .main__acerca {
+    padding-left: 5rem;
+    width: 100%;
+    max-width: 480px;
+    margin-left: 1rem;
+  }
+   .main__description{
+    padding-right: 1.5rem;
+    margin-left: 1rem;
+
+  }
+  .main__descargar {
+    margin-left: 1rem;
+  }
+  .main__tecnologias{
+    padding-left: 5.5rem;
+    margin-top: 2rem;
+        margin-left: 1rem;
+  }
+  .main__proyectos{
+margin-left: 2rem;
+  }
+  .main__contacto{
+    margin-left: 3rem;
+  }
+}
+/* @media screen and (min-width: 364px) {
   .main__picture{
     transform: translate(2.5rem);
     -webkit-transform: translate(2.5rem);
@@ -815,7 +852,7 @@ margin-left: 1rem;
   .main__contacto{
     margin-left: 2rem;
   }
-}
+} */
 @media screen and (min-width: 425px) {
   .main__container {
     height: 246rem;
