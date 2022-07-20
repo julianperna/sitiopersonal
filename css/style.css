@@ -30,7 +30,6 @@ body {
 svg {
   width: 100%;
   display: block;
-  fill: currentColor;
 }
 .header {
   width: 100%;
