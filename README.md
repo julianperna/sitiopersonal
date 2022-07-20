@@ -22,7 +22,7 @@ _Creacion de Portafolio Personal_
 <span>Implementación de metodología BEM</span>
 ## Deploy
 
-<a href="https://jperna.netlify.app/">PORTAFOLIO</a>
+<a href="https://jperna.netlify.app/" target="_blank">PORTAFOLIO</a>
 
 
 
