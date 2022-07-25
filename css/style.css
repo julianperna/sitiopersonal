@@ -807,7 +807,10 @@ h3 {
   }
   .main__acerca {
     width: 97%;
-    margin-left: 5rem;
+    margin-left: 3rem;
+  }
+  .main__container{
+    width: 91%;
   }
   .main__descargar {
     margin-left: 1rem;
