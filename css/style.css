@@ -821,10 +821,13 @@ h3 {
     margin-left: 1rem;
   }
   .main__tecnologias {
-    margin-left: 1rem;
+    margin-left: 2.5rem;
+  }
+  .main__descripcion{
+    margin-left: 2.5rem;
   }
   .main__proyectos {
-    margin-left: 1.5rem;
+    margin-left: 1rem;
   }
   .main__contacto {
     padding-left: 7rem;
