@@ -844,12 +844,12 @@ h3 {
   .main__proyects{
     margin-left: 1rem;
   }
-  .main__proyectos {
-    margin-left: 1rem;
-  }
   .main__contacto {
-    padding-left: 7rem;
+    padding-left: 6rem;
   }
+  .footer__container {
+    width: 110%;
+}
 }
 @media screen and (min-width: 384px) {
   .main__picture {
