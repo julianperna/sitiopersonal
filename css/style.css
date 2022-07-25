@@ -809,6 +809,11 @@ h3 {
     width: 97%;
     margin-left: 1rem;
   }
+  .main__description {
+    margin-left: 2rem;
+    width: 94%;
+    padding-left: 0;
+  }
   .main__container{
     width: 91%;
   }
