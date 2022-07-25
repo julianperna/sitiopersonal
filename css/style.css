@@ -845,7 +845,10 @@ h3 {
     margin-left: 1rem;
   }
   .main__contacto {
-    padding-left: 6rem;
+    padding-left: 6.5rem;
+  }
+  .main__redes{
+    margin-left: 1rem;
   }
   .footer__container {
     width: 110%;
