@@ -673,24 +673,31 @@ h3 {
     width: 100%;
     max-width: 10rem;
   }
+  .main__descarga {
+    transform: translate(3rem, -3rem);
+    -webkit-transform: translate(3rem, -3rem);
+    -moz-transform: translate(3rem, -3rem);
+    -ms-transform: translate(3rem, -3rem);
+    -o-transform: translate(3rem, -3rem);
+}
   .main__tecnologias {
     margin-left: 2rem;
     margin-top: 1rem;
   }
   .main__logos {
-    transform: translate(1rem, 1rem);
-    -webkit-transform: translate(1rem, 1rem);
-    -moz-transform: translate(1rem, 1rem);
-    -ms-transform: translate(1rem, 1rem);
-    -o-transform: translate(1rem, 1rem);
-}
+    transform: translate(0rem, 1rem);
+    -webkit-transform: translate(0rem, 1rem);
+    -moz-transform: translate(0rem, 1rem);
+    -ms-transform: translate(0rem, 1rem);
+    -o-transform: translate(0rem, 1rem);
+  }
   .main__logo__container {
-    transform: translate(1rem, 1rem);
-    -webkit-transform: translate(1rem, 1rem);
-    -moz-transform: translate(1rem, 1rem);
-    -ms-transform: translate(1rem, 1rem);
-    -o-transform: translate(1rem, 1rem);
-}
+    transform: translate(0rem, 1rem);
+    -webkit-transform: translate(0rem, 1rem);
+    -moz-transform: translate(0rem, 1rem);
+    -ms-transform: translate(0rem, 1rem);
+    -o-transform: translate(0rem, 1rem);
+  }
   .main__logo {
     transform: translate(0rem, 1rem);
     -webkit-transform: translate(0rem, 1rem);
@@ -798,18 +805,7 @@ h3 {
     padding-left: 2rem;
   }
 }
-@media screen and (min-width: 345px){
-.main__icon{
-  padding-bottom: 16px;
-}
-.main__descarga {
-    transform: translate(3rem, -3rem);
-    -webkit-transform: translate(3rem, -3rem);
-    -moz-transform: translate(3rem, -3rem);
-    -ms-transform: translate(3rem, -3rem);
-    -o-transform: translate(3rem, -3rem);
-}
-}
+
 @media screen and (min-width: 360px) {
   .main__picture {
     transform: translate(3rem);
