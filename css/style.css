@@ -673,13 +673,6 @@ h3 {
     width: 100%;
     max-width: 10rem;
   }
-  .main__descarga {
-    transform: translate(3rem, -3rem);
-    -webkit-transform: translate(3rem, -3rem);
-    -moz-transform: translate(3rem, -3rem);
-    -ms-transform: translate(3rem, -3rem);
-    -o-transform: translate(3rem, -3rem);
-}
   .main__tecnologias {
     margin-left: 2rem;
     margin-top: 1rem;
@@ -805,7 +798,6 @@ h3 {
     padding-left: 2rem;
   }
 }
-
 @media screen and (min-width: 360px) {
   .main__picture {
     transform: translate(3rem);
@@ -838,12 +830,12 @@ h3 {
     height: 60px;
   }
   .main__descarga {
-    transform: translate(2rem, -3rem);
-    -webkit-transform: translate(2rem, -3rem);
-    -moz-transform: translate(2rem, -3rem);
-    -ms-transform: translate(2rem, -3rem);
-    -o-transform: translate(2rem, -3rem);
-}
+    transform: translate(2rem, -1.5rem);
+    -webkit-transform: translate(2rem, -1.5rem);
+    -moz-transform: translate(2rem, -1.5rem);
+    -ms-transform: translate(2rem, -1.5rem);
+    -o-transform: translate(2rem, -1.5rem);
+  }
   .main__tecnologias {
     margin-left: 2.5rem;
     margin-top: 0;
