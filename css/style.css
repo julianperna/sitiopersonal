@@ -678,19 +678,19 @@ h3 {
     margin-top: 1rem;
   }
   .main__logos {
-    transform: translate(0rem, 1rem);
-    -webkit-transform: translate(0rem, 1rem);
-    -moz-transform: translate(0rem, 1rem);
-    -ms-transform: translate(0rem, 1rem);
-    -o-transform: translate(0rem, 1rem);
-  }
+    transform: translate(1rem, 1rem);
+    -webkit-transform: translate(1rem, 1rem);
+    -moz-transform: translate(1rem, 1rem);
+    -ms-transform: translate(1rem, 1rem);
+    -o-transform: translate(1rem, 1rem);
+}
   .main__logo__container {
-    transform: translate(0rem, 1rem);
-    -webkit-transform: translate(0rem, 1rem);
-    -moz-transform: translate(0rem, 1rem);
-    -ms-transform: translate(0rem, 1rem);
-    -o-transform: translate(0rem, 1rem);
-  }
+    transform: translate(1rem, 1rem);
+    -webkit-transform: translate(1rem, 1rem);
+    -moz-transform: translate(1rem, 1rem);
+    -ms-transform: translate(1rem, 1rem);
+    -o-transform: translate(1rem, 1rem);
+}
   .main__logo {
     transform: translate(0rem, 1rem);
     -webkit-transform: translate(0rem, 1rem);
@@ -797,6 +797,18 @@ h3 {
   .footer {
     padding-left: 2rem;
   }
+}
+@media screen and (min-width: 345px){
+.main__icon{
+  padding-bottom: 16px;
+}
+.main__descarga {
+    transform: translate(3rem, -2rem);
+    -webkit-transform: translate(3rem, -2rem);
+    -moz-transform: translate(3rem, -2rem);
+    -ms-transform: translate(3rem, -2rem);
+    -o-transform: translate(3rem, -2rem);
+}
 }
 @media screen and (min-width: 360px) {
   .main__picture {
@@ -2482,5 +2494,61 @@ h3 {
   }
   .footer {
     margin-left: 46rem;
+  }
+}
+@media screen and (min-width: 2060px) {
+  .main__picture {
+    transform: translate(76rem, -14rem);
+    -webkit-transform: translate(76rem, -14rem);
+    -moz-transform: translate(76rem, -14rem);
+    -ms-transform: translate(76rem, -14rem);
+    -o-transform: translate(76rem, -14rem);
+}
+  .main__acerca {
+    margin-left: 49rem;
+  }
+  .main__description {
+    margin-left: 25rem;
+  }
+  .main__descargar {
+    padding-left: 44rem;
+  }
+  .main__download {
+    width: 110%;
+  }
+  .main__tecnologias {
+    padding-left: 44rem;
+  }
+  .main__descripcion {
+    padding-left: 42rem;
+  }
+  .main__logo__container {
+    transform: translate(20rem, 1rem);
+    -webkit-transform: translate(20rem, 1rem);
+    -moz-transform: translate(20rem, 1rem);
+    -ms-transform: translate(20rem, 1rem);
+    -o-transform: translate(20rem, 1rem);
+  }
+  .main__logos {
+    transform: translate(20rem, 13rem);
+    -webkit-transform: translate(20rem, 13rem);
+    -moz-transform: translate(20rem, 13rem);
+    -ms-transform: translate(20rem, 13rem);
+    -o-transform: translate(20rem, 13rem);
+  }
+  .main__proyectos {
+    margin-left: 49rem;
+  }
+  .main__cards__container {
+    margin-left: 9rem;
+  }
+  .main__contacto {
+    padding-left: 49rem;
+  }
+  .main__redes {
+    margin-left: 49rem;
+  }
+  .footer {
+    margin-left: 49rem;
   }
 }
