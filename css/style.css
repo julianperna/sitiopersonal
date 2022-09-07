@@ -803,11 +803,11 @@ h3 {
   padding-bottom: 16px;
 }
 .main__descarga {
-    transform: translate(3rem, -2rem);
-    -webkit-transform: translate(3rem, -2rem);
-    -moz-transform: translate(3rem, -2rem);
-    -ms-transform: translate(3rem, -2rem);
-    -o-transform: translate(3rem, -2rem);
+    transform: translate(3rem, -3rem);
+    -webkit-transform: translate(3rem, -3rem);
+    -moz-transform: translate(3rem, -3rem);
+    -ms-transform: translate(3rem, -3rem);
+    -o-transform: translate(3rem, -3rem);
 }
 }
 @media screen and (min-width: 360px) {
