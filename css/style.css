@@ -1156,15 +1156,15 @@ h3 {
     width: 100%;
   }
   .main__descarga {
-    transform: translate(3rem, -0.7rem);
-    -webkit-transform: translate(3rem, -0.7rem);
-    -moz-transform: translate(3rem, -0.7rem);
-    -ms-transform: translate(3rem, -0.7rem);
-    -o-transform: translate(3rem, -0.7rem);
-  }
+    transform: translate(3rem, -1.9rem);
+    -webkit-transform: translate(3rem, -1.9rem);
+    -moz-transform: translate(3rem, -1.9rem);
+    -ms-transform: translate(3rem, -1.9rem);
+    -o-transform: translate(3rem, -1.9rem);
+}
   .main__icon {
     width: 40px;
-    height: 40px;
+    height: 60px;
     transform: translate(0.7rem, 0.2rem);
     -webkit-transform: translate(0.7rem, 0.2rem);
     -moz-transform: translate(0.7rem, 0.2rem);
