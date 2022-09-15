@@ -887,7 +887,9 @@ h3 {
 @media screen and (min-width: 367px){
 .main__tecnologias {
     margin-left: 3rem;
-    margin-top: 0;
+}
+.main__contacto {
+    padding-left: 9rem;
 }
 }
 @media screen and (min-width: 384px) {
