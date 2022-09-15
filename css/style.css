@@ -884,14 +884,7 @@ h3 {
     width: 110%;
   }
 }
-@media screen and (min-width: 367px){
-.main__tecnologias {
-    margin-left: 3rem;
-}
-.main__contacto {
-    padding-left: 2rem;
-}
-}
+
 @media screen and (min-width: 384px) {
   .main__picture {
     transform: translate(4rem);
@@ -918,6 +911,11 @@ h3 {
   .main__redes {
     padding-left: 1rem;
   }
+}
+@media screen and (min-width: 405px){
+.main__contacto {
+    padding-left: 5.5rem;
+}
 }
 @media screen and (min-width: 411px) {
   .main__picture {
