@@ -912,7 +912,7 @@ h3 {
     padding-left: 1rem;
   }
 }
-@media screen and (min-width: 405px){
+@media screen and (min-width: 395px){
 .main__contacto {
     padding-left: 5.5rem;
 }
