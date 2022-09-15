@@ -874,9 +874,9 @@ h3 {
   .main__proyects {
     margin-left: 1rem;
   }
-.main__contacto {
-    padding-left: 7rem;
-}
+  .main__contacto {
+    padding-left: 6.5rem;
+  }
   .main__redes {
     margin-left: 1rem;
   }
@@ -884,7 +884,6 @@ h3 {
     width: 110%;
   }
 }
-
 @media screen and (min-width: 384px) {
   .main__picture {
     transform: translate(4rem);
@@ -906,16 +905,11 @@ h3 {
     margin-left: 1rem;
   }
   .main__contacto {
-    padding-left: 3.5rem;
+    padding-left: 7.5rem;
   }
   .main__redes {
     padding-left: 1rem;
   }
-}
-@media screen and (min-width: 395px){
-.main__contacto {
-    padding-left: 5.5rem;
-}
 }
 @media screen and (min-width: 411px) {
   .main__picture {
@@ -1974,16 +1968,16 @@ h3 {
   .main__about {
     max-width: 1366px;
   }
-  .main__acerca {
-    margin-left: 21.5rem;
-  }
+.main__acerca {
+    margin-left: 22rem;
+}
   .main__description {
     max-width: 1366px;
     padding-right: 16rem;
     padding-left: 16rem;
   }
   .main__descripcion {
-    padding-left: 0;
+    padding-left: 2rem;
   }
   .main__descargar {
     padding-left: 15rem;
@@ -1994,13 +1988,13 @@ h3 {
     max-width: 1366px;
   }
   .main__tecnologias {
-    padding-left: 2.5rem;
+    padding-left: 4rem;
   }
   .main__proyects {
     max-width: 1366px;
   }
   .main__proyectos {
-    margin-left: 21rem;
+    margin-left: 22.5rem;
   }
   .main__cards__container {
     max-width: 1366px;
@@ -2009,17 +2003,17 @@ h3 {
     max-width: 1366px;
   }
   .main__contacto {
-    padding-left: 21rem;
+    padding-left: 22.5rem;
   }
   .main__redes {
-    margin-left: 21rem;
+    margin-left: 22.5rem;
   }
   .footer__container {
     max-width: 1366px;
     width: 104%;
   }
   .footer {
-    margin-left: 21rem;
+    margin-left: 22.5rem;
   }
 }
 @media screen and (min-width: 1230px) {
@@ -2078,9 +2072,9 @@ h3 {
     -ms-transform: translate(33rem, -14rem);
     -o-transform: translate(33rem, -14rem);
   }
-  .main__acerca {
+.main__acerca {
     margin-left: 25rem;
-  }
+}
   .main__description {
     margin-bottom: 0;
   }
@@ -2090,8 +2084,8 @@ h3 {
     margin-top: 0;
   }
   .main__tecnologias {
-    padding-left: 4rem;
-}
+    padding-left: 5rem;
+  }
   .main__proyectos {
     margin-left: 25rem;
   }
@@ -2105,15 +2099,10 @@ h3 {
     margin-left: 25rem;
   }
 }
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1315px){
 .main__acerca {
     margin-left: 26rem;
 }
-  .main__proyectos {
-    margin-left: 25.5rem;
-  }
-}
-@media screen and (min-width: 1330px) {
 .main__descargar {
     padding-left: 19rem;
 }
@@ -2123,12 +2112,12 @@ h3 {
 .main__contacto {
     padding-left: 26rem;
 }
-.main__redes {
+  .main__redes {
     margin-left: 26rem;
-}
-.footer {
+  }
+  .footer {
     margin-left: 26rem;
-}
+  }
 }
 @media screen and (min-width: 1347px){
 .main__acerca {
@@ -2141,17 +2130,17 @@ h3 {
     margin-left: 27rem;
 }
 .main__cards__container {
-    margin-left: 1.5rem;
+    margin-left: 2rem;
 }
 .main__contacto {
     padding-left: 27rem;
 }
-.main__redes {
+  .main__redes {
     margin-left: 27rem;
-}
-.footer {
+  }
+  .footer {
     margin-left: 27rem;
-}
+  }
 }
 @media screen and (min-width: 1366px) {
   .header {
@@ -2172,38 +2161,25 @@ h3 {
   .main__about {
     margin-top: -11rem;
   }
-.main__acerca {
-    margin-left: 27.5rem;
-}
+
   .main__description {
     padding-right: 23rem;
     margin-left: 9rem;
     width: 94%;
   }
   .main__descargar {
-    padding-left: 20.5rem;
     max-width: 54rem;
     margin-top: 0;
   }
   .main__tecnologias {
-    padding-left: 4.5rem;
+    padding-left: 4rem;
     margin-top: 2rem;
   }
-  .main__proyectos {
-    margin-left: 27.5rem;
-  }
-  .main__contacto {
-    padding-left: 27.5rem;
-  }
-  .main__redes {
-    margin-left: 27.5rem;
-  }
+
   .footer__container {
     max-width: 1440px;
   }
-  .footer {
-    margin-left: 27.5rem;
-  }
+
 }
 @media screen and (min-width: 1440px) {
   .header {
