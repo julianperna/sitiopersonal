@@ -400,7 +400,7 @@ h3 {
   max-width: 300px;
 }
 .card__content {
-  padding: 15px;
+  padding: 10px;
   text-align: center;
   color: #cccccc;
   font-family: "Poppins";
@@ -1100,12 +1100,7 @@ h3 {
     -ms-transform: translate(8rem);
     -o-transform: translate(8rem);
   }
-  .main__acerca {
-    padding-left: 9rem;
-  }
-  .main__descargar {
-    margin-left: 9rem;
-  }
+
   .main__descripcion {
     margin-left: 4rem;
   }
@@ -1155,8 +1150,6 @@ h3 {
   .main__title {
     font-size: 1.6rem;
     width: 17rem;
-    padding-top: 4rem;
-    padding-left: 1.3rem;
     margin-top: 11rem;
   }
   .main__nombre {
@@ -1190,13 +1183,11 @@ h3 {
   .main__description {
     max-width: 768px;
     width: 100%;
-    padding-left: 2rem;
+    
     padding-right: 3rem;
     font-size: 0.8rem;
   }
   .main__descargar {
-    margin-left: 9rem;
-    height: 3rem;
     max-width: 77%;
     margin-top: -1rem;
   }
@@ -1445,9 +1436,6 @@ h3 {
   }
   .main__contacto {
     margin-left: 10.5rem;
-  }
-  .main__container {
-    height: 175rem;
   }
   .main__redes {
     margin-left: 6.5rem;
@@ -1907,9 +1895,6 @@ h3 {
   .main__descargar {
     padding-left: 13rem;
   }
-  .main__tecnologias {
-    padding-left: 6rem;
-  }
   .main__descripcion {
     padding-left: 5rem;
   }
@@ -1976,9 +1961,7 @@ h3 {
     padding-right: 16rem;
     padding-left: 16rem;
   }
-  .main__descripcion {
-    padding-left: 2rem;
-  }
+
   .main__descargar {
     padding-left: 15rem;
     max-width: 51rem;
@@ -2026,9 +2009,7 @@ h3 {
   .main__description {
     margin-bottom: 1rem;
   }
-  .main__tecnologias {
-    padding-left: 4rem;
-}
+
 .main__descripcion {
     padding-left: 3rem;
 }
@@ -2121,25 +2102,37 @@ h3 {
 }
 @media screen and (min-width: 1347px){
 .main__acerca {
-    margin-left: 27rem;
+    margin-left: 27.5rem;
 }
 .main__descargar {
     padding-left: 20rem;
 }
 .main__proyectos {
-    margin-left: 27rem;
+    margin-left: 27.5rem;
 }
 .main__cards__container {
     margin-left: 2rem;
 }
+.card__content--relojeria{
+      margin-top: -2rem;
+}
+.card__content--breaking{
+      margin-top: -1rem;
+}
+.card__content--digital{
+      margin-top: -1rem;
+}
+.card__content--spacex{
+      margin-top: -3rem;
+}
 .main__contacto {
-    padding-left: 27rem;
+    padding-left: 27.5rem;
 }
   .main__redes {
-    margin-left: 27rem;
+    margin-left: 27.5rem;
   }
   .footer {
-    margin-left: 27rem;
+    margin-left: 27.5rem;
   }
 }
 @media screen and (min-width: 1366px) {
@@ -2172,7 +2165,6 @@ h3 {
     margin-top: 0;
   }
   .main__tecnologias {
-    padding-left: 4rem;
     margin-top: 2rem;
   }
 
