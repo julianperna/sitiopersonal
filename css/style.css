@@ -936,9 +936,9 @@ h3 {
     margin-left: 1rem;
     width: 100%;
   }
-  .main__proyectos {
-    margin-left: 2rem;
-  }
+.main__proyectos {
+  margin-left: 1.5rem;
+}
   .main__contacto {
     margin-left: 1rem;
   }
@@ -1007,7 +1007,7 @@ h3 {
     margin-top: 0;
   }
   .main__descripcion {
-    margin-left: 2rem;
+    margin-left: 3rem;
   }
   .main__description {
     padding-left: 3rem;
@@ -1042,7 +1042,7 @@ h3 {
     max-width: 600px;
   }
   .footer {
-    margin-left: -1rem;
+    margin-left: 0;
   }
 }
 @media screen and (min-width: 538px) {
@@ -1062,12 +1062,12 @@ h3 {
     margin-left: 4rem;
   }
   .footer {
-    margin-left: 0;
+    margin-left: .5rem;
   }
 }
 @media screen and (min-width: 566px) {
   .main__acerca {
-    padding-left: 9rem;
+    padding-left: 8.5rem;
   }
   .main__descargar {
     margin-left: 9rem;
@@ -1100,7 +1100,9 @@ h3 {
     -ms-transform: translate(8rem);
     -o-transform: translate(8rem);
   }
-
+.main__acerca {
+    padding-left: 9rem;
+}
   .main__descripcion {
     margin-left: 4rem;
   }
@@ -1134,8 +1136,8 @@ h3 {
     margin-left: 2.5rem;
   }
   .footer {
-    margin-left: 1.5rem;
-  }
+    margin-left: 2.5rem;
+}
 }
 /* TABLETS */
 @media screen and (min-width: 600px) {
@@ -1177,7 +1179,7 @@ h3 {
     width: 100%;
   }
   .main__acerca {
-    margin-left: 3rem;
+    margin-left: 3.5rem;
     height: 4rem;
   }
   .main__description {
@@ -1190,6 +1192,7 @@ h3 {
   .main__descargar {
     max-width: 77%;
     margin-top: -1rem;
+        margin-left: 10rem;
   }
   .main__download {
     height: 2.6rem;
@@ -1218,7 +1221,7 @@ h3 {
     max-width: 768px;
   }
   .main__tecnologias {
-    padding-left: 1rem;
+    padding-left: 1.5rem;
     margin-top: 2rem;
   }
   .main__descripcion {
@@ -1317,7 +1320,7 @@ h3 {
     width: 83%;
   }
   .main__contacto {
-    margin-left: 6rem;
+    margin-left: 7rem;
     width: 88%;
   }
   .main__redes {
@@ -1328,7 +1331,7 @@ h3 {
     width: 104%;
   }
   .footer {
-    margin-left: 2.5rem;
+    margin-left: 4rem;
   }
 }
 @media screen and (min-width: 623px) {
@@ -1346,6 +1349,10 @@ h3 {
     padding-left: 1rem;
     margin-top: -1rem;
   }
+  .main__tecnologias {
+    padding-left: 2rem;
+
+}
   .main__proyects {
     height: 184rem;
   }
@@ -1357,7 +1364,7 @@ h3 {
     margin-left: 7rem;
   }
   .footer {
-    margin-left: 3rem;
+    margin-left: 4rem;
   }
 }
 @media screen and (min-width: 663px) {
@@ -1737,9 +1744,7 @@ h3 {
     padding-top: 10px;
     height: 113rem;
   }
-  .main__proyectos {
-    margin-left: 15rem;
-  }
+
   .main__contacto {
     padding-left: 15rem;
   }
@@ -1757,6 +1762,9 @@ h3 {
   .main__proyects {
     height: 77rem;
   }
+  .main__proyectos {
+    margin-left: 15.5rem;
+}
 }
 @media screen and (min-width: 1024px) {
   .header {
@@ -1921,6 +1929,9 @@ h3 {
 .main__contacto {
   padding-left: 20rem;
 }
+.main__tecnologias {
+    padding-left: 6rem;
+}
 .main__redes {
   margin-left: 20rem;
 }
@@ -2014,16 +2025,16 @@ h3 {
     padding-left: 3rem;
 }
 .main__proyectos {
-    margin-left: 23rem;
+    margin-left: 23.5rem;
 }
 .main__contacto {
-    padding-left: 23rem;
+    padding-left: 23.5rem;
 }
 .main__redes {
-    margin-left: 23rem;
+    margin-left: 23.5rem;
 }
 .footer {
-    margin-left: 23rem;
+    margin-left: 23.5rem;
 }
 }
 @media screen and (min-width: 1260px){
