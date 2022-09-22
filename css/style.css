@@ -16,6 +16,7 @@ li {
 html {
   scroll-behavior: smooth;
   scroll-margin-top: 2rem;
+  overflow-x: hidden;
 }
 h1 {
   font-size: 1.5em;
