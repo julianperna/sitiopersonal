@@ -884,8 +884,8 @@ h3 {
   .footer__container {
     width: 110%;
   }
-  .footer {
-    padding-left: 0rem;
+.footer {
+    padding-left: 5rem;
 }
 
 }
