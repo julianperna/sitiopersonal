@@ -884,6 +884,10 @@ h3 {
   .footer__container {
     width: 110%;
   }
+  .footer {
+    padding-left: 0rem;
+}
+
 }
 @media screen and (min-width: 384px) {
   .main__picture {
