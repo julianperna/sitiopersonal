@@ -875,6 +875,9 @@ h3 {
   .main__proyects {
     margin-left: 1rem;
   }
+  .main__proyectos {
+    padding-left: 6rem;
+}
   .main__contacto {
     padding-left: 6.5rem;
   }
