@@ -175,14 +175,15 @@ h3 {
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
-  font-size: 0.8rem;
+  font-size: 15px;
   border: 1px solid;
   color: black;
   background-color: aqua;
   width: 114px;
   font-weight: bold;
   height: 40px;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 10px;
+  
 }
 .main__button:hover {
   background-color: #2fc6da;
@@ -199,6 +200,8 @@ h3 {
   -moz-transform: translate(3rem, -1.5rem);
   -ms-transform: translate(3rem, -1.5rem);
   -o-transform: translate(3rem, -1.5rem);
+  font-size: 15px;
+
 }
 .main__download {
   font-size: 1rem;
@@ -216,6 +219,7 @@ h3 {
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
   margin-left: 1.5rem;
+  padding-left: 5px;
 }
 .main__download:hover {
   background-color: #1066c2;
@@ -229,6 +233,7 @@ h3 {
   width: 60px;
   height: 60px;
   margin-bottom: -24px;
+
 }
 
 .main__technologies {
@@ -369,6 +374,7 @@ h3 {
 .main__proyectos {
   padding-left: 4rem;
   padding-top: 10px;
+  font-family: "Open Sans", sans-serif;
 }
 .main__cards__container {
   max-width: 480px;
@@ -524,6 +530,7 @@ h3 {
 }
 .main__contacto {
   padding-left: 4rem;
+  font-family: "Open Sans", sans-serif;
 }
 .main__redes {
   display: flex;
@@ -773,7 +780,7 @@ h3 {
     margin-top: -1rem;
   }
   .main__proyectos {
-    padding-left: 5rem;
+    padding-left: 5.5rem;
   }
   .card__tecnologias {
     transform: translate(-2rem, 1rem);
@@ -909,15 +916,18 @@ h3 {
     margin-left: 3.5rem;
     margin-top: 0.5rem;
   }
-  .main__proyectos {
-    margin-left: 1rem;
-  }
+.main__proyectos {
+    padding-left: 5.5rem;
+}
   .main__contacto {
     padding-left: 7.5rem;
   }
   .main__redes {
+    margin-left: 2rem;
+}
+ .footer {
     padding-left: 1rem;
-  }
+}
 }
 @media screen and (min-width: 411px) {
   .main__picture {
@@ -941,7 +951,7 @@ h3 {
     width: 80%;
   }
   .main__tecnologias {
-    margin-left: 1rem;
+    margin-left: 1.5rem;
     width: 100%;
   }
 .main__proyectos {
@@ -958,6 +968,9 @@ h3 {
   .main__about {
     height: 13rem;
   }
+  .main__acerca {
+    margin-left: 3rem;
+}
   .main__description {
     margin-bottom: 1rem;
   }
@@ -968,13 +981,13 @@ h3 {
     margin-top: 3.5rem;
   }
   .main__proyectos {
-    margin-left: 1.5rem;
+    margin-left: 2rem;
   }
   .main__contacto {
-    margin-left: 1rem;
+    margin-left: 2rem;
   }
   .footer {
-    padding-left: 0;
+    padding-left: 2rem;
   }
 }
 @media screen and (min-width: 480px) {
@@ -1008,7 +1021,7 @@ h3 {
     max-width: 600px;
   }
   .main__descargar {
-    margin-left: 6rem;
+    margin-left: 7rem;
   }
   .main__technologies {
     max-width: 600px;
@@ -1044,7 +1057,7 @@ h3 {
     margin-left: 3rem;
   }
   .main__redes {
-    margin-left: 1rem;
+    margin-left: 2rem;
   }
   .footer__container {
     max-width: 600px;
@@ -2123,11 +2136,21 @@ h3 {
 .main__acerca {
     margin-left: 27.5rem;
 }
+.main__download {
+    padding-left: 3px;
+}
 .main__descargar {
     padding-left: 20rem;
 }
+.main__icon {
+    transform: translate(0.7rem, 0);
+    -webkit-transform: translate(0.7rem, 0);
+    -moz-transform: translate(0.7rem, 0);
+    -ms-transform: translate(0.7rem, 0);
+    -o-transform: translate(0.7rem, 0);
+}
 .main__proyectos {
-    margin-left: 27.5rem;
+    margin-left: 28rem;
 }
 .main__cards__container {
     margin-left: 2rem;
@@ -2145,13 +2168,13 @@ h3 {
       margin-top: -3rem;
 }
 .main__contacto {
-    padding-left: 27.5rem;
+    padding-left: 28rem;
 }
   .main__redes {
-    margin-left: 27.5rem;
+    margin-left: 28rem;
   }
   .footer {
-    margin-left: 27.5rem;
+    margin-left: 28rem;
   }
 }
 @media screen and (min-width: 1366px) {
@@ -2544,11 +2567,9 @@ h3 {
     max-width: 1900px;
   }
   .main__acerca {
-    margin-left: 40rem;
+    margin-left: 41rem;
   }
-  .main__descargar {
-    padding-left: 35rem;
-  }
+
   .main__download {
     width: 70%;
   }
@@ -2559,36 +2580,36 @@ h3 {
     padding-left: 24rem;
   }
   .main__logo__container {
-    transform: translate(11rem, 1rem);
-    -webkit-transform: translate(11rem, 1rem);
-    -moz-transform: translate(11rem, 1rem);
-    -ms-transform: translate(11rem, 1rem);
-    -o-transform: translate(11rem, 1rem);
-  }
+    transform: translate(12rem, 1rem);
+    -webkit-transform: translate(12rem, 1rem);
+    -moz-transform: translate(12rem, 1rem);
+    -ms-transform: translate(12rem, 1rem);
+    -o-transform: translate(12rem, 1rem);
+}
   .main__logos {
-    transform: translate(11rem, 13rem);
-    -webkit-transform: translate(11rem, 13rem);
-    -moz-transform: translate(11rem, 13rem);
-    -ms-transform: translate(11rem, 13rem);
-    -o-transform: translate(11rem, 13rem);
-  }
+    transform: translate(12rem, 13rem);
+    -webkit-transform: translate(12rem, 13rem);
+    -moz-transform: translate(12rem, 13rem);
+    -ms-transform: translate(12rem, 13rem);
+    -o-transform: translate(12rem, 13rem);
+}
   .main__proyectos {
-    margin-left: 40rem;
+    margin-left: 40.5rem;
   }
   .main__contact {
     max-width: 1900px;
   }
   .main__contacto {
-    padding-left: 39rem;
+    padding-left: 41rem;
   }
   .main__redes {
-    margin-left: 39rem;
+    margin-left: 41rem;
   }
   .footer__container {
     max-width: 1900px;
   }
   .footer {
-    margin-left: 39rem;
+    margin-left: 40rem;
   }
 }
 @media screen and (min-width: 1860px) {
@@ -2599,36 +2620,39 @@ h3 {
     margin-left: 18rem;
   }
   .main__descargar {
-    padding-left: 38rem;
+    padding-left: 36rem;
   }
   .main__tecnologias {
-    padding-left: 32rem;
+    padding-left: 31rem;
   }
   .main__descripcion {
     padding-left: 30rem;
   }
   .main__logo__container {
-    transform: translate(14rem, 1rem);
-    -webkit-transform: translate(14rem, 1rem);
-    -moz-transform: translate(14rem, 1rem);
-    -ms-transform: translate(14rem, 1rem);
-    -o-transform: translate(14rem, 1rem);
-  }
+    transform: translate(15rem, 1rem);
+    -webkit-transform: translate(15rem, 1rem);
+    -moz-transform: translate(15rem, 1rem);
+    -ms-transform: translate(15rem, 1rem);
+    -o-transform: translate(15rem, 1rem);
+}
   .main__logos {
-    transform: translate(14rem, 13rem);
-    -webkit-transform: translate(14rem, 13rem);
-    -moz-transform: translate(14rem, 13rem);
-    -ms-transform: translate(14rem, 13rem);
-    -o-transform: translate(14rem, 13rem);
-  }
+    transform: translate(15rem, 13rem);
+    -webkit-transform: translate(15rem, 13rem);
+    -moz-transform: translate(15rem, 13rem);
+    -ms-transform: translate(15rem, 13rem);
+    -o-transform: translate(15rem, 13rem);
+}
   .main__proyectos {
     margin-left: 43rem;
   }
+  .main__cards__container {
+    margin-left: 4rem;
+}
   .main__contacto {
-    padding-left: 42rem;
+    padding-left: 43rem;
   }
   .main__redes {
-    margin-left: 42rem;
+    margin-left: 43rem;
   }
   .footer {
     margin-left: 42rem;
@@ -2655,28 +2679,45 @@ h3 {
     margin-left: 44rem;
   }
   .main__descargar {
-    padding-left: 39rem;
+    padding-left: 37rem;
   }
   .main__tecnologias {
-    padding-left: 34rem;
+    padding-left: 33rem;
   }
+  .main__descripcion {
+    padding-left: 32rem;
+}
+  .main__logo__container {
+    transform: translate(16rem, 1rem);
+    -webkit-transform: translate(16rem, 1rem);
+    -moz-transform: translate(16rem, 1rem);
+    -ms-transform: translate(16rem, 1rem);
+    -o-transform: translate(16rem, 1rem);
+}
+.main__logos {
+    transform: translate(16rem, 13rem);
+    -webkit-transform: translate(16rem, 13rem);
+    -moz-transform: translate(16rem, 13rem);
+    -ms-transform: translate(16rem, 13rem);
+    -o-transform: translate(16rem, 13rem);
+}
   .main__proyectos {
     margin-left: 44rem;
   }
   .main__cards__container {
-    margin-left: 4rem;
+    margin-left: 5rem;
   }
   .main__contact {
     max-width: 2000px;
   }
   .main__contacto {
-    padding-left: 43rem;
+    padding-left: 44rem;
   }
   .footer__container {
     max-width: 2000px;
   }
   .main__redes {
-    margin-left: 43rem;
+    margin-left: 44rem;
   }
   .footer {
     margin-left: 43rem;
@@ -2684,45 +2725,48 @@ h3 {
 }
 @media screen and (min-width: 1960px) {
   .main__acerca {
-    margin-left: 45rem;
+    margin-left: 46rem;
   }
   .main__description {
     margin-left: 20rem;
   }
   .main__descripcion {
-    padding-left: 32rem;
+    padding-left: 35rem;
   }
   .main__descargar {
-    padding-left: 40rem;
+    padding-left: 39rem;
   }
   .main__download {
     width: 90%;
   }
   .main__tecnologias {
-    padding-left: 36rem;
+    padding-left: 36.5rem;
   }
   .main__logo__container {
-    transform: translate(16rem, 1rem);
-    -webkit-transform: translate(16rem, 1rem);
-    -moz-transform: translate(16rem, 1rem);
-    -ms-transform: translate(16rem, 1rem);
-    -o-transform: translate(16rem, 1rem);
-  }
+    transform: translate(17rem, 1rem);
+    -webkit-transform: translate(17rem, 1rem);
+    -moz-transform: translate(17rem, 1rem);
+    -ms-transform: translate(17rem, 1rem);
+    -o-transform: translate(17rem, 1rem);
+}
   .main__logos {
-    transform: translate(16rem, 13rem);
-    -webkit-transform: translate(16rem, 13rem);
-    -moz-transform: translate(16rem, 13rem);
-    -ms-transform: translate(16rem, 13rem);
-    -o-transform: translate(16rem, 13rem);
-  }
+    transform: translate(17rem, 13rem);
+    -webkit-transform: translate(17rem, 13rem);
+    -moz-transform: translate(17rem, 13rem);
+    -ms-transform: translate(17rem, 13rem);
+    -o-transform: translate(17rem, 13rem);
+}
   .main__proyectos {
-    margin-left: 44.5rem;
+    margin-left: 45.5rem;
   }
+  .main__cards__container {
+    margin-left: 7rem;
+}
   .main__contacto {
-    padding-left: 44rem;
+    padding-left: 45rem;
   }
   .main__redes {
-    margin-left: 44rem;
+    margin-left: 45rem;
   }
   .footer {
     margin-left: 44rem;
