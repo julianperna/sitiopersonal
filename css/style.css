@@ -713,6 +713,14 @@ h3 {
     -ms-transform: translate(-2rem, 2rem);
     -o-transform: translate(-2rem, 2rem);
   }
+  .fa-css3 {
+    color: blue;
+    transform: translate(.8rem, 0rem);
+    -webkit-transform: translate(.8rem, 0rem);
+    -moz-transform: translate(.8rem, 0rem);
+    -ms-transform: translate(.8rem, 0rem);
+    -o-transform: translate(.8rem, 0rem);
+}
   .fa-js {
     transform: translate(3rem, 0rem);
     -webkit-transform: translate(3rem, 0rem);
@@ -727,13 +735,13 @@ h3 {
     -ms-transform: translate(1.5rem, 2rem);
     -o-transform: translate(1.5rem, 2rem);
   }
-  .fa-react {
-    transform: translate(0.3rem, 2rem);
-    -webkit-transform: translate(0.3rem, 2rem);
-    -moz-transform: translate(0.3rem, 2rem);
-    -ms-transform: translate(0.3rem, 2rem);
-    -o-transform: translate(0.3rem, 2rem);
-  }
+ .fa-react {
+    transform: translate(-.7rem, 2rem);
+    -webkit-transform: translate(-.7rem, 2rem);
+    -moz-transform: translate(-.7rem, 2rem);
+    -ms-transform: translate(-.7rem, 2rem);
+    -o-transform: translate(-.7rem, 2rem);
+}
   .fa-git-alt {
     transform: translate(0.3rem, 2rem);
     -webkit-transform: translate(0.3rem, 2rem);
@@ -742,12 +750,12 @@ h3 {
     -o-transform: translate(0.3rem, 2rem);
   }
   .main__logo--css {
-    transform: translate(-0.4rem, 2rem);
-    -webkit-transform: translate(-0.4rem, 2rem);
-    -moz-transform: translate(-0.4rem, 2rem);
-    -ms-transform: translate(-0.4rem, 2rem);
-    -o-transform: translate(-0.4rem, 2rem);
-  }
+    transform: translate(-1.2rem, 2rem);
+    -webkit-transform: translate(-1.2rem, 2rem);
+    -moz-transform: translate(-1.2rem, 2rem);
+    -ms-transform: translate(-1.2rem, 2rem);
+    -o-transform: translate(-1.2rem, 2rem);
+}
   .main__logo--js {
     transform: translate(-0.3rem, 2rem);
     -webkit-transform: translate(-0.3rem, 2rem);
@@ -763,12 +771,12 @@ h3 {
     -o-transform: translate(-2.4rem, 4rem);
   }
   .main__logo--react {
-    transform: translate(-2.4rem, 4rem);
-    -webkit-transform: translate(-2.4rem, 4rem);
-    -moz-transform: translate(-2.4rem, 4rem);
-    -ms-transform: translate(-2.4rem, 4rem);
-    -o-transform: translate(-2.4rem, 4rem);
-  }
+    transform: translate(-3.3rem, 4rem);
+    -webkit-transform: translate(-3.3rem, 4rem);
+    -moz-transform: translate(-3.3rem, 4rem);
+    -ms-transform: translate(-3.3rem, 4rem);
+    -o-transform: translate(-3.3rem, 4rem);
+}
   .main__logo--git {
     transform: translate(-1.3rem, 4rem);
     -webkit-transform: translate(-1.3rem, 4rem);
@@ -802,8 +810,11 @@ h3 {
   .main__contacto {
     padding-left: 6rem;
   }
+  .main__redes {
+    margin-left: .5rem;
+}
   .footer {
-    padding-left: 2rem;
+    padding-left: 1rem;
   }
 }
 @media screen and (min-width: 360px) {
@@ -2448,6 +2459,7 @@ h3 {
     -moz-transform: translate(50rem, -36rem);
     -ms-transform: translate(50rem, -36rem);
     -o-transform: translate(50rem, -36rem);
+    margin-left: 0;
   }
 }
 @media screen and (min-width: 1680px) {
@@ -2763,10 +2775,10 @@ h3 {
     margin-left: 7rem;
 }
   .main__contacto {
-    padding-left: 45rem;
+    padding-left: 45.5rem;
   }
   .main__redes {
-    margin-left: 45rem;
+    margin-left: 46rem;
   }
   .footer {
     margin-left: 44rem;
@@ -2796,10 +2808,10 @@ h3 {
     margin-left: 22rem;
   }
   .main__descargar {
-    padding-left: 42rem;
+    padding-left: 40rem;
   }
   .main__tecnologias {
-    padding-left: 40rem;
+    padding-left: 39rem;
   }
   .main__descripcion {
     padding-left: 38rem;
@@ -2828,16 +2840,16 @@ h3 {
     max-width: 2060px;
   }
   .main__contacto {
-    padding-left: 46rem;
+    padding-left: 46.5rem;
   }
   .footer__container {
     max-width: 2060px;
   }
   .main__redes {
-    margin-left: 46rem;
+    margin-left: 46.5rem;
   }
   .footer {
-    margin-left: 46rem;
+    margin-left: 45rem;
   }
 }
 @media screen and (min-width: 2060px) {
@@ -2855,13 +2867,13 @@ h3 {
     margin-left: 25rem;
   }
   .main__descargar {
-    padding-left: 44rem;
+    padding-left: 42rem;
   }
   .main__download {
     width: 110%;
   }
   .main__tecnologias {
-    padding-left: 44rem;
+    padding-left: 42rem;
   }
   .main__descripcion {
     padding-left: 42rem;
@@ -2893,6 +2905,6 @@ h3 {
     margin-left: 49rem;
   }
   .footer {
-    margin-left: 49rem;
+    margin-left: 48rem;
   }
 }
