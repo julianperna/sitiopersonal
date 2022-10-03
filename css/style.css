@@ -139,11 +139,11 @@ svg {
   margin-left: -1rem;
   object-fit: cover;
   background-position: center;
-  border-radius: 50%;
+  /* border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
-  -o-border-radius: 50%;
+  -o-border-radius: 50%; */
 }
 .main__about {
   text-align: justify;
@@ -183,7 +183,6 @@ h3 {
   font-weight: bold;
   height: 40px;
   padding: 10px 10px;
-  
 }
 .main__button:hover {
   background-color: #2fc6da;
@@ -201,7 +200,6 @@ h3 {
   -ms-transform: translate(3rem, -1.5rem);
   -o-transform: translate(3rem, -1.5rem);
   font-size: 15px;
-
 }
 .main__download {
   font-size: 1rem;
@@ -233,7 +231,6 @@ h3 {
   width: 60px;
   height: 60px;
   margin-bottom: -24px;
-
 }
 
 .main__technologies {
@@ -715,12 +712,12 @@ h3 {
   }
   .fa-css3 {
     color: blue;
-    transform: translate(.8rem, 0rem);
-    -webkit-transform: translate(.8rem, 0rem);
-    -moz-transform: translate(.8rem, 0rem);
-    -ms-transform: translate(.8rem, 0rem);
-    -o-transform: translate(.8rem, 0rem);
-}
+    transform: translate(0.8rem, 0rem);
+    -webkit-transform: translate(0.8rem, 0rem);
+    -moz-transform: translate(0.8rem, 0rem);
+    -ms-transform: translate(0.8rem, 0rem);
+    -o-transform: translate(0.8rem, 0rem);
+  }
   .fa-js {
     transform: translate(3rem, 0rem);
     -webkit-transform: translate(3rem, 0rem);
@@ -735,13 +732,13 @@ h3 {
     -ms-transform: translate(1.5rem, 2rem);
     -o-transform: translate(1.5rem, 2rem);
   }
- .fa-react {
-    transform: translate(-.7rem, 2rem);
-    -webkit-transform: translate(-.7rem, 2rem);
-    -moz-transform: translate(-.7rem, 2rem);
-    -ms-transform: translate(-.7rem, 2rem);
-    -o-transform: translate(-.7rem, 2rem);
-}
+  .fa-react {
+    transform: translate(-0.7rem, 2rem);
+    -webkit-transform: translate(-0.7rem, 2rem);
+    -moz-transform: translate(-0.7rem, 2rem);
+    -ms-transform: translate(-0.7rem, 2rem);
+    -o-transform: translate(-0.7rem, 2rem);
+  }
   .fa-git-alt {
     transform: translate(0.3rem, 2rem);
     -webkit-transform: translate(0.3rem, 2rem);
@@ -755,7 +752,7 @@ h3 {
     -moz-transform: translate(-1.2rem, 2rem);
     -ms-transform: translate(-1.2rem, 2rem);
     -o-transform: translate(-1.2rem, 2rem);
-}
+  }
   .main__logo--js {
     transform: translate(-0.3rem, 2rem);
     -webkit-transform: translate(-0.3rem, 2rem);
@@ -776,7 +773,7 @@ h3 {
     -moz-transform: translate(-3.3rem, 4rem);
     -ms-transform: translate(-3.3rem, 4rem);
     -o-transform: translate(-3.3rem, 4rem);
-}
+  }
   .main__logo--git {
     transform: translate(-1.3rem, 4rem);
     -webkit-transform: translate(-1.3rem, 4rem);
@@ -811,8 +808,8 @@ h3 {
     padding-left: 6rem;
   }
   .main__redes {
-    margin-left: .5rem;
-}
+    margin-left: 0.5rem;
+  }
   .footer {
     padding-left: 1rem;
   }
@@ -824,7 +821,7 @@ h3 {
     -moz-transform: translate(4rem);
     -ms-transform: translate(4rem);
     -o-transform: translate(4rem);
-}
+  }
   .main__acerca {
     width: 97%;
     margin-left: 1rem;
@@ -838,7 +835,7 @@ h3 {
     width: 91%;
   }
   .main__descargar {
-    margin-left: 3.1rem;
+    margin-left: 3rem;
   }
   .main__download {
     max-width: 9rem;
@@ -860,20 +857,20 @@ h3 {
     margin-top: 0;
   }
   .fa-css3 {
-  color: blue;
-  transform: translate(1.8rem, 0rem);
-  -webkit-transform: translate(1.8rem, 0rem);
-  -moz-transform: translate(1.8rem, 0rem);
-  -ms-transform: translate(1.8rem, 0rem);
-  -o-transform: translate(1.8rem, 0rem);
-}
-.main__logo--css {
-    transform: translate(-.3rem, 2rem);
-    -webkit-transform: translate(-.3rem, 2rem);
-    -moz-transform: translate(-.3rem, 2rem);
-    -ms-transform: translate(-.3rem, 2rem);
-    -o-transform: translate(-.3rem, 2rem);
-}
+    color: blue;
+    transform: translate(1.8rem, 0rem);
+    -webkit-transform: translate(1.8rem, 0rem);
+    -moz-transform: translate(1.8rem, 0rem);
+    -ms-transform: translate(1.8rem, 0rem);
+    -o-transform: translate(1.8rem, 0rem);
+  }
+  .main__logo--css {
+    transform: translate(-0.3rem, 2rem);
+    -webkit-transform: translate(-0.3rem, 2rem);
+    -moz-transform: translate(-0.3rem, 2rem);
+    -ms-transform: translate(-0.3rem, 2rem);
+    -o-transform: translate(-0.3rem, 2rem);
+  }
   .fa-js {
     transform: translate(4.5rem);
     -webkit-transform: translate(4.5rem);
@@ -894,14 +891,14 @@ h3 {
     -moz-transform: translate(0.3rem, 2rem);
     -ms-transform: translate(0.3rem, 2rem);
     -o-transform: translate(0.3rem, 2rem);
-}
+  }
   .main__logo--react {
     transform: translate(-2.3rem, 4rem);
     -webkit-transform: translate(-2.3rem, 4rem);
     -moz-transform: translate(-2.3rem, 4rem);
     -ms-transform: translate(-2.3rem, 4rem);
     -o-transform: translate(-2.3rem, 4rem);
-}
+  }
 
   .fa-git-alt {
     transform: translate(2rem, 2rem);
@@ -918,14 +915,14 @@ h3 {
     -o-transform: translate(0.3rem, 4rem);
   }
   .main__descripcion {
-    margin-left: 3.5rem;
+    margin-left: 2.5rem;
   }
   .main__proyects {
     margin-left: 1rem;
   }
   .main__proyectos {
-    padding-left: 6rem;
-}
+    padding-left: 5.5rem;
+  }
   .main__contacto {
     padding-left: 7.5rem;
   }
@@ -935,40 +932,35 @@ h3 {
   .footer__container {
     width: 110%;
   }
-.footer {
+  .footer {
     padding-left: 0rem;
-}
-
+  }
 }
 @media screen and (min-width: 384px) {
-  .main__picture {
-    transform: translate(4rem);
-  }
   .main__acerca {
-    margin-left: 1.5rem;
+    margin-left: 2rem;
   }
   .main__descargar {
     margin-left: 4rem;
+    width: 94%;
   }
   .main__about {
     height: 16rem;
   }
   .main__tecnologias {
-    margin-left: 3.5rem;
     margin-top: 0.5rem;
+    margin-left: 4rem;
   }
-.main__proyectos {
-    padding-left: 5.5rem;
-}
+
   .main__contacto {
-    padding-left: 7.5rem;
+    padding-left: 8rem;
   }
   .main__redes {
     margin-left: 2rem;
-}
- .footer {
+  }
+  .footer {
     padding-left: 1rem;
-}
+  }
 }
 @media screen and (min-width: 411px) {
   .main__picture {
@@ -979,7 +971,7 @@ h3 {
     -o-transform: translate(5rem);
   }
   .main__acerca {
-    margin-left: 2.5rem;
+    margin-left: 3rem;
     width: 80%;
   }
   .main__description {
@@ -987,17 +979,16 @@ h3 {
     padding-right: 1.5rem;
   }
   .main__descargar {
-    margin-left: 4.5rem;
+    margin-left: 5rem;
     margin-top: 0;
     width: 80%;
   }
   .main__tecnologias {
-    margin-left: 1.5rem;
-    width: 100%;
+    margin-left: 5rem;
   }
-.main__proyectos {
-  margin-left: 1.5rem;
-}
+  .main__proyectos {
+    margin-left: 1rem;
+  }
   .main__contacto {
     margin-left: 1rem;
   }
@@ -1011,7 +1002,7 @@ h3 {
   }
   .main__acerca {
     margin-left: 3rem;
-}
+  }
   .main__description {
     margin-bottom: 1rem;
   }
@@ -1069,14 +1060,14 @@ h3 {
     margin-top: 0;
   }
   .main__descripcion {
-    margin-left: 3rem;
+    margin-left: 5rem;
   }
   .main__description {
     padding-left: 3rem;
     padding-right: 2.5rem;
   }
   .main__tecnologias {
-    padding-left: 2rem;
+    padding-left: 5rem;
     margin-top: 2.5rem;
   }
 
@@ -1104,47 +1095,80 @@ h3 {
     max-width: 600px;
   }
   .footer {
-    margin-left: 0;
+    margin-left: -1rem;
   }
 }
 @media screen and (min-width: 538px) {
   .main__acerca {
     padding-left: 8rem;
   }
-  .main__descargar {
-    margin-left: 8rem;
-  }
-  .main__technologies {
-    margin-top: -1rem;
-  }
-  .main__proyectos {
-    padding-left: 8.5rem;
-  }
-  .main__contacto {
-    margin-left: 4rem;
-  }
-  .footer {
-    margin-left: .5rem;
-  }
-}
-@media screen and (min-width: 566px) {
-  .main__acerca {
-    padding-left: 8.5rem;
+  .main__picture {
+    transform: translate(7rem);
+    -webkit-transform: translate(7rem);
+    -moz-transform: translate(7rem);
+    -ms-transform: translate(7rem);
+    -o-transform: translate(7rem);
   }
   .main__descargar {
     margin-left: 9rem;
   }
+  .main__technologies {
+    margin-top: -1rem;
+  }
   .main__tecnologias {
-    margin-top: 1rem;
+    padding-left: 7rem;
+  }
+  .main__logo__container {
+    transform: translate(0.5rem, 1rem);
+    -webkit-transform: translate(0.5rem, 1rem);
+    -moz-transform: translate(0.5rem, 1rem);
+    -ms-transform: translate(0.5rem, 1rem);
+    -o-transform: translate(0.5rem, 1rem);
+  }
+  .main__logos {
+    transform: translate(0.5rem, 1rem);
+    -webkit-transform: translate(0.5rem, 1rem);
+    -moz-transform: translate(0.5rem, 1rem);
+    -ms-transform: translate(0.5rem, 1rem);
+    -o-transform: translate(0.5rem, 1rem);
   }
   .main__proyectos {
-    padding-left: 9rem;
+    padding-left: 8.5rem;
   }
   .main__contacto {
-    margin-left: 5rem;
+    margin-left: 4.5rem;
+  }
+  .footer {
+    margin-left: 0.5rem;
+  }
+}
+@media screen and (min-width: 566px) {
+  .main__picture {
+    transform: translate(8rem);
+    -webkit-transform: translate(8rem);
+    -moz-transform: translate(8rem);
+    -ms-transform: translate(8rem);
+    -o-transform: translate(8rem);
+  }
+  .main__acerca {
+    padding-left: 8.5rem;
+  }
+  .main__descargar {
+    margin-left: 9.5rem;
+  }
+  .main__tecnologias {
+    margin-top: 1rem;
+    padding-left: 7.5rem;
+  }
+
+  .main__proyectos {
+    padding-left: 9.5rem;
+  }
+  .main__contacto {
+    margin-left: 5.5rem;
   }
   .main__redes {
-    margin-left: 2rem;
+    margin-left: 3rem;
   }
   .footer {
     margin-left: 1.5rem;
@@ -1155,18 +1179,14 @@ h3 {
   .main__container {
     height: 240rem;
   }
-  .main__picture {
-    transform: translate(8rem);
-    -webkit-transform: translate(8rem);
-    -moz-transform: translate(8rem);
-    -ms-transform: translate(8rem);
-    -o-transform: translate(8rem);
-  }
-.main__acerca {
+  .main__acerca {
     padding-left: 9rem;
-}
+  }
   .main__descripcion {
     margin-left: 4rem;
+  }
+  .main__tecnologias {
+    padding-left: 8rem;
   }
   .main__logo__container {
     transform: translate(1rem, 1rem);
@@ -1186,7 +1206,7 @@ h3 {
     height: 185rem;
   }
   .main__proyectos {
-    padding-left: 9.5rem;
+    padding-left: 10rem;
   }
   .main__cards__container {
     margin-left: 1rem;
@@ -1195,11 +1215,11 @@ h3 {
     margin-left: 6rem;
   }
   .main__redes {
-    margin-left: 2.5rem;
+    margin-left: 3.5rem;
   }
   .footer {
     margin-left: 2.5rem;
-}
+  }
 }
 /* TABLETS */
 @media screen and (min-width: 600px) {
@@ -1247,19 +1267,20 @@ h3 {
   .main__description {
     max-width: 768px;
     width: 100%;
-    
+
     padding-right: 3rem;
     font-size: 0.8rem;
   }
   .main__descargar {
     max-width: 77%;
     margin-top: -1rem;
-        margin-left: 10rem;
+    margin-left: 10rem;
   }
   .main__download {
     height: 2.6rem;
-    max-width: 11rem;
+    max-width: 10rem;
     width: 100%;
+    padding-left: 0;
   }
   .main__descarga {
     transform: translate(3rem, -1.9rem);
@@ -1283,21 +1304,19 @@ h3 {
     max-width: 768px;
   }
   .main__tecnologias {
-    padding-left: 1.5rem;
+    padding-left: 9rem;
     margin-top: 2rem;
   }
   .main__descripcion {
     margin-left: 3rem;
   }
-  .main__logo__container {
-    transform: translate(0rem, 1rem);
-  }
+
   .main__logos {
-    transform: translate(0rem, 13rem);
-    -webkit-transform: translate(0rem, 13rem);
-    -moz-transform: translate(0rem, 13rem);
-    -ms-transform: translate(0rem, 13rem);
-    -o-transform: translate(0rem, 13rem);
+    transform: translate(1rem, 13rem);
+    -webkit-transform: translate(1rem, 13rem);
+    -moz-transform: translate(1rem, 13rem);
+    -ms-transform: translate(1rem, 13rem);
+    -o-transform: translate(1rem, 13rem);
   }
   .fa-css3 {
     transform: translate(1.6rem, 0rem);
@@ -1368,7 +1387,7 @@ h3 {
     width: 98%;
   }
   .main__proyectos {
-    margin-left: 3rem;
+    margin-left: 3.5rem;
     width: 91%;
   }
   .main__cards__container {
@@ -1386,14 +1405,14 @@ h3 {
     width: 88%;
   }
   .main__redes {
-    margin-left: 4rem;
+    margin-left: 5rem;
   }
   .footer__container {
     max-width: 768px;
     width: 104%;
   }
   .footer {
-    margin-left: 4rem;
+    margin-left: 3rem;
   }
 }
 @media screen and (min-width: 623px) {
@@ -1412,9 +1431,8 @@ h3 {
     margin-top: -1rem;
   }
   .main__tecnologias {
-    padding-left: 2rem;
-
-}
+    padding-left: 10rem;
+  }
   .main__proyects {
     height: 184rem;
   }
@@ -1423,7 +1441,10 @@ h3 {
     width: 61%;
   }
   .main__contacto {
-    margin-left: 7rem;
+    margin-left: 8rem;
+  }
+  .main__redes {
+    margin-left: 6rem;
   }
   .footer {
     margin-left: 4rem;
@@ -1438,23 +1459,23 @@ h3 {
     -o-transform: translate(21rem, -14rem);
   }
   .main__acerca {
-    margin-left: 5rem;
+    margin-left: 5.5rem;
   }
   .main__descargar {
     margin-top: -1rem;
-    margin-left: 10rem;
+    margin-left: 11.5rem;
   }
   .main__tecnologias {
-    padding-left: 2rem;
+    padding-left: 11rem;
   }
   .main__proyectos {
-    margin-left: 5rem;
+    margin-left: 5.5rem;
   }
   .main__contacto {
-    margin-left: 8.5rem;
+    margin-left: 9rem;
   }
   .main__redes {
-    margin-left: 5rem;
+    margin-left: 7rem;
   }
   .footer {
     margin-left: 5rem;
@@ -1469,14 +1490,25 @@ h3 {
   }
 }
 @media screen and (min-width: 690px) {
+  .main__title {
+    margin-left: 1.5rem;
+  }
+  .main__picture {
+    transform: translate(25rem, -14rem);
+    -webkit-transform: translate(25rem, -14rem);
+    -moz-transform: translate(25rem, -14rem);
+    -ms-transform: translate(25rem, -14rem);
+    -o-transform: translate(25rem, -14rem);
+  }
   .main__acerca {
     margin-left: 6.5rem;
   }
   .main__tecnologias {
     margin-top: 1rem;
+    padding-left: 12rem;
   }
   .main__descargar {
-    margin-left: 11rem;
+    margin-left: 12.5rem;
   }
   .main__proyectos {
     margin-left: 6rem;
@@ -1492,7 +1524,11 @@ h3 {
   }
   .main__descargar {
     margin-top: 0;
-    margin-left: 12rem;
+    margin-left: 13rem;
+    width: 74%;
+  }
+  .main__tecnologias {
+    padding-left: 12.5rem;
   }
   .main__description {
     margin-bottom: 0;
@@ -1501,16 +1537,16 @@ h3 {
     height: 113rem;
   }
   .main__proyectos {
-    margin-left: 7rem;
+    margin-left: 6.5rem;
   }
   .main__contacto {
-    margin-left: 10.5rem;
+    margin-left: 10rem;
   }
   .main__redes {
-    margin-left: 6.5rem;
+    margin-left: 7.5rem;
   }
   .footer {
-    margin-left: 6.5rem;
+    margin-left: 6rem;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1525,7 +1561,7 @@ h3 {
     max-width: 900px;
   }
   .main__picture {
-    margin-left: 5rem;
+    margin-left: 2rem;
   }
   .main__about {
     height: 13rem;
@@ -1548,7 +1584,7 @@ h3 {
     max-width: 900px;
   }
   .main__tecnologias {
-    margin-left: 1.5rem;
+    margin-left: 7rem;
     margin-top: 2rem;
   }
   .main__proyects {
@@ -1576,16 +1612,16 @@ h3 {
     max-width: 900px;
   }
   .footer {
-    margin-left: 8rem;
+    margin-left: 7rem;
   }
 }
 @media screen and (min-width: 790px) {
   .main__tecnologias {
     margin-top: 1rem;
-    margin-left: 1rem;
+    margin-left: 7.5rem;
   }
   .footer {
-    margin-left: 9rem;
+    margin-left: 7.5rem;
   }
 }
 @media screen and (min-width: 800px) {
@@ -1596,9 +1632,7 @@ h3 {
     padding-left: 4rem;
     margin-top: 0;
   }
-  .main__tecnologias {
-    margin-left: 1rem;
-  }
+
   .main__description {
     margin-bottom: 0;
   }
@@ -1608,13 +1642,20 @@ h3 {
   .main__contacto {
     padding-left: 9.5rem;
   }
+  .main__redes {
+    margin-left: 9.5rem;
+  }
+
   .footer {
-    margin-left: 9rem;
+    margin-left: 8rem;
   }
 }
 @media screen and (min-width: 840px) {
   .main__picture {
-    margin-left: 9rem;
+    margin-left: 5rem;
+  }
+  .main__title {
+    margin-left: 4rem;
   }
   .main__acerca {
     margin-left: 11rem;
@@ -1630,24 +1671,10 @@ h3 {
   }
   .main__tecnologias {
     margin-top: 2rem;
+    margin-left: 9rem;
   }
   .main__proyectos {
     margin-left: 10.5rem;
-  }
-  .main__contacto {
-    padding-left: 10rem;
-  }
-  .main__redes {
-    margin-left: 10rem;
-  }
-  .footer {
-    margin-left: 10rem;
-  }
-}
-@media screen and (min-width: 873px) {
-  .main__tecnologias {
-    margin-top: 1rem;
-    margin-left: 0;
   }
   .main__contacto {
     padding-left: 11rem;
@@ -1656,7 +1683,32 @@ h3 {
     margin-left: 11rem;
   }
   .footer {
+    margin-left: 9rem;
+  }
+}
+@media screen and (min-width: 873px) {
+  .main__acerca {
+    margin-left: 11.5rem;
+  }
+  .main__descargar {
+    margin-top: -1rem;
+    padding-left: 5.5rem;
+  }
+  .main__tecnologias {
+    margin-top: 1rem;
+    margin-left: 9.5rem;
+  }
+  .main__proyectos {
     margin-left: 11rem;
+  }
+  .main__contacto {
+    padding-left: 12rem;
+  }
+  .main__redes {
+    margin-left: 12rem;
+  }
+  .footer {
+    margin-left: 10rem;
   }
 }
 @media screen and (min-width: 900px) {
@@ -1694,7 +1746,7 @@ h3 {
     margin-top: 0.6rem;
   }
   .main__tecnologias {
-    margin-left: 1rem;
+    margin-left: 11rem;
     margin-top: -1rem;
   }
   .main__descripcion {
@@ -1734,17 +1786,17 @@ h3 {
     max-width: 1024px;
   }
   .main__contacto {
-    padding-left: 12.5rem;
+    padding-left: 13.5rem;
   }
   .main__redes {
-    margin-left: 13rem;
+    margin-left: 13.5rem;
   }
   .footer__container {
     max-width: 1024px;
     width: 104%;
   }
   .footer {
-    margin-left: 12.5rem;
+    margin-left: 12rem;
   }
 }
 @media screen and (min-width: 942px) {
@@ -1759,20 +1811,20 @@ h3 {
     margin-top: -1rem;
   }
   .main__tecnologias {
-    margin-left: 1.5rem;
+    margin-left: 12rem;
     margin-top: 2rem;
   }
   .main__proyectos {
-    margin-left: 14rem;
+    margin-left: 13.5rem;
   }
   .main__contacto {
-    padding-left: 14rem;
+    padding-left: 15rem;
   }
   .main__redes {
-    margin-left: 14rem;
+    margin-left: 15rem;
   }
   .footer {
-    margin-left: 14rem;
+    margin-left: 13rem;
   }
 }
 @media screen and (min-width: 965px) {
@@ -1799,34 +1851,54 @@ h3 {
     margin-left: 14rem;
   }
   .main__tecnologias {
-    margin-left: 1rem;
+    margin-left: 13rem;
     margin-top: 1.5rem;
   }
   .main__proyects {
     padding-top: 10px;
     height: 113rem;
   }
-
-  .main__contacto {
-    padding-left: 15rem;
-  }
-  .main__redes {
-    margin-left: 15rem;
+  .main__proyectos {
+    margin-left: 14.5rem;
   }
   .footer {
-    margin-left: 15rem;
+    margin-left: 13.5rem;
   }
 }
 @media screen and (min-width: 1005px) {
+  .main__title {
+    margin-left: 1rem;
+  }
+  .main__picture {
+    margin-left: 15rem;
+  }
   .main__container {
     height: 134rem;
+  }
+  .main__acerca {
+    margin-left: 16rem;
+  }
+  .main__descargar {
+    margin-left: 15rem;
+  }
+  .main__tecnologias {
+    margin-left: 14rem;
   }
   .main__proyects {
     height: 77rem;
   }
   .main__proyectos {
     margin-left: 15.5rem;
-}
+  }
+  .main__contacto {
+    padding-left: 16.5rem;
+  }
+  .main__redes {
+    margin-left: 16.5rem;
+  }
+  .footer {
+    margin-left: 14.5rem;
+  }
 }
 @media screen and (min-width: 1024px) {
   .header {
@@ -1852,7 +1924,7 @@ h3 {
     padding-left: 12rem;
   }
   .main__descargar {
-    padding-left: 10rem;
+    padding-left: 9rem;
   }
   .main__download {
     width: 33%;
@@ -1861,7 +1933,7 @@ h3 {
     max-width: 1200px;
   }
   .main__tecnologias {
-    padding-left: 4rem;
+    padding-left: 13.5rem;
     margin-top: 2rem;
   }
   .main__proyects {
@@ -1869,7 +1941,7 @@ h3 {
     width: 99%;
   }
   .main__proyectos {
-    margin-left: 17rem;
+    margin-left: 16.5rem;
   }
   .main__cards__container {
     max-width: 1200px;
@@ -1878,17 +1950,17 @@ h3 {
     max-width: 1200px;
   }
   .main__contacto {
-    padding-left: 17rem;
+    padding-left: 17.5rem;
   }
   .main__redes {
-    margin-left: 17rem;
+    margin-left: 17.5rem;
   }
   .footer__container {
     max-width: 1200px;
     width: 104%;
   }
   .footer {
-    margin-left: 17rem;
+    margin-left: 16rem;
   }
 }
 @media screen and (min-width: 1064px) {
@@ -1896,14 +1968,16 @@ h3 {
     margin-left: 18rem;
   }
   .main__descargar {
-    padding-left: 11rem;
+    padding-left: 10rem;
   }
 
   .main__tecnologias {
     margin-top: 0;
+    margin-left: 14.5rem;
+    width: 41%;
   }
   .main__proyectos {
-    margin-left: 18rem;
+    margin-left: 17.5rem;
   }
   .main__contacto {
     padding-left: 18rem;
@@ -1911,23 +1985,28 @@ h3 {
   .main__redes {
     margin-left: 18rem;
   }
-  .footer {
-    margin-left: 18rem;
-  }
 }
 @media screen and (min-width: 1085px) {
+  .main__picture {
+    margin-left: 18rem;
+  }
   .main__description {
     margin-bottom: 0;
   }
   .main__descargar {
     margin-top: 0rem;
   }
-
-  .main__tecnologias {
-    padding-left: 2rem;
+  .main__contacto {
+    padding-left: 19rem;
+  }
+  .main__redes {
+    margin-left: 19rem;
   }
   .footer__container {
     width: 105%;
+  }
+  .footer {
+    margin-left: 17rem;
   }
 }
 @media screen and (min-width: 1093px) {
@@ -1956,6 +2035,9 @@ h3 {
   }
 }
 @media screen and (min-width: 1146px) {
+  .main__title {
+    margin-left: 4rem;
+  }
   .main__picture {
     margin-left: 20rem;
   }
@@ -1963,10 +2045,13 @@ h3 {
     margin-left: 20rem;
   }
   .main__descargar {
-    padding-left: 13rem;
+    padding-left: 12rem;
   }
   .main__descripcion {
     padding-left: 5rem;
+  }
+  .main__tecnologias {
+    padding-left: 16.5rem;
   }
   .main__logo__container {
     transform: translate(2rem, 1rem);
@@ -1984,25 +2069,22 @@ h3 {
   }
   .main__proyectos {
     margin-left: 20rem;
-}
-.main__cards__container {
+  }
+  .main__cards__container {
     margin-left: 3rem;
-}
-.main__contacto {
-  padding-left: 20rem;
-}
-.main__tecnologias {
-    padding-left: 6rem;
-}
-.main__redes {
-  margin-left: 20rem;
-}
+  }
+  .main__contacto {
+    padding-left: 20.5rem;
+  }
+  .main__redes {
+    margin-left: 20.5rem;
+  }
   .footer__container {
     width: 111%;
   }
   .footer {
-    margin-left: 20rem;
-}
+    margin-left: 19rem;
+  }
 }
 @media screen and (min-width: 1156px) {
   .footer__container {
@@ -2026,9 +2108,9 @@ h3 {
   .main__about {
     max-width: 1366px;
   }
-.main__acerca {
+  .main__acerca {
     margin-left: 22rem;
-}
+  }
   .main__description {
     max-width: 1366px;
     padding-right: 16rem;
@@ -2036,7 +2118,7 @@ h3 {
   }
 
   .main__descargar {
-    padding-left: 15rem;
+    padding-left: 14rem;
     max-width: 51rem;
     margin-top: -1rem;
   }
@@ -2044,13 +2126,16 @@ h3 {
     max-width: 1366px;
   }
   .main__tecnologias {
-    padding-left: 4rem;
+    padding-left: 18rem;
+  }
+  .main__cards__container {
+    margin-left: 1rem;
   }
   .main__proyects {
     max-width: 1366px;
   }
   .main__proyectos {
-    margin-left: 22.5rem;
+    margin-left: 22rem;
   }
   .main__cards__container {
     max-width: 1366px;
@@ -2069,79 +2154,77 @@ h3 {
     width: 104%;
   }
   .footer {
-    margin-left: 22.5rem;
+    margin-left: 21rem;
   }
 }
 @media screen and (min-width: 1230px) {
   .main__acerca {
     margin-left: 23rem;
-}
-.main__descargar {
-    padding-left: 16rem;
-}
+  }
+  .main__descargar {
+    padding-left: 15.5rem;
+  }
   .main__description {
     margin-bottom: 1rem;
   }
 
-.main__descripcion {
+  .main__descripcion {
     padding-left: 3rem;
-}
-.main__proyectos {
+  }
+  .main__proyectos {
     margin-left: 23.5rem;
-}
-.main__contacto {
+  }
+  .main__tecnologias {
+    padding-left: 19.5rem;
+  }
+  .main__contacto {
     padding-left: 23.5rem;
-}
-.main__redes {
+  }
+  .main__redes {
     margin-left: 23.5rem;
+  }
+  .footer {
+    margin-left: 22rem;
+  }
 }
-.footer {
-    margin-left: 23.5rem;
-}
-}
-@media screen and (min-width: 1260px){
-.main__acerca {
+@media screen and (min-width: 1260px) {
+  .main__acerca {
     margin-left: 24rem;
-}
-.main__descargar {
-    padding-left: 17rem;
-}.main__proyectos {
-    margin-left: 24rem;
-}
-.main__contacto {
+  }
+  .main__descargar {
+    padding-left: 16rem;
+  }
+  .main__tecnologias {
+    padding-left: 20rem;
+  }
+
+  .main__contacto {
     padding-left: 24rem;
-}
-.main__redes {
+  }
+  .main__redes {
     margin-left: 24rem;
-}
-.footer {
-    margin-left: 24rem;
-}
+  }
+  .footer {
+    margin-left: 22.5rem;
+  }
 }
 @media screen and (min-width: 1281px) {
-  .main__picture {
-    transform: translate(33rem, -14rem);
-    -webkit-transform: translate(33rem, -14rem);
-    -moz-transform: translate(33rem, -14rem);
-    -ms-transform: translate(33rem, -14rem);
-    -o-transform: translate(33rem, -14rem);
-  }
-.main__acerca {
+  .main__acerca {
     margin-left: 25rem;
-}
+  }
   .main__description {
     margin-bottom: 0;
   }
   .main__descargar {
-    padding-left: 18rem;
+    padding-left: 17rem;
     max-width: 52rem;
     margin-top: 0;
   }
   .main__tecnologias {
-    padding-left: 5rem;
+    padding-left: 21rem;
   }
   .main__proyectos {
-    margin-left: 25rem;
+    margin-left: 24.5rem;
   }
   .main__contacto {
     padding-left: 25rem;
@@ -2150,73 +2233,117 @@ h3 {
     margin-left: 25rem;
   }
   .footer {
-    margin-left: 25rem;
+    margin-left: 23.5rem;
   }
 }
-@media screen and (min-width: 1315px){
-.main__acerca {
+@media screen and (min-width: 1315px) {
+  .main__acerca {
     margin-left: 26rem;
-}
-.main__descargar {
-    padding-left: 19rem;
-}
-.main__proyectos {
-    margin-left: 26rem;
-}
-.main__contacto {
+  }
+  .main__descargar {
+    padding-left: 18rem;
+  }
+  .main__tecnologias {
+    padding-left: 22rem;
+  }
+  .main__proyectos {
+    margin-left: 25.5rem;
+  }
+  .main__contacto {
     padding-left: 26rem;
-}
+  }
   .main__redes {
     margin-left: 26rem;
   }
   .footer {
-    margin-left: 26rem;
+    margin-left: 24.5rem;
   }
 }
-@media screen and (min-width: 1347px){
-.main__acerca {
+@media screen and (min-width: 1347px) {
+  .main__title {
+    margin-left: 4rem;
+  }
+  .main__picture {
+    transform: translate(34rem, -14rem);
+    -webkit-transform: translate(34rem, -14rem);
+    -moz-transform: translate(34rem, -14rem);
+    -ms-transform: translate(34rem, -14rem);
+    -o-transform: translate(34rem, -14rem);
+  }
+  .main__acerca {
     margin-left: 27.5rem;
-}
-.main__download {
+  }
+  .main__description {
+    width: 89%;
+    padding-left: 23rem;
+  }
+  .main__download {
     padding-left: 3px;
-}
-.main__descargar {
-    padding-left: 20rem;
-}
-.main__icon {
+  }
+  .main__descargar {
+    padding-left: 19.5rem;
+  }
+  .main__icon {
     transform: translate(0.7rem, 0);
     -webkit-transform: translate(0.7rem, 0);
     -moz-transform: translate(0.7rem, 0);
     -ms-transform: translate(0.7rem, 0);
     -o-transform: translate(0.7rem, 0);
-}
-.main__proyectos {
-    margin-left: 28rem;
-}
-.main__cards__container {
+  }
+  .main__tecnologias {
+    margin-top: 2rem;
+    padding-left: 23.5rem;
+  }
+  .main__proyectos {
+    margin-left: 27rem;
+  }
+  .main__cards__container {
     margin-left: 2rem;
-}
-.card__content--relojeria{
-      margin-top: -2rem;
-}
-.card__content--breaking{
-      margin-top: -1rem;
-}
-.card__content--digital{
-      margin-top: -1rem;
-}
-.card__content--spacex{
-      margin-top: -3rem;
-}
-.main__contacto {
+  }
+  .card__content--relojeria {
+    margin-top: -2rem;
+  }
+  .card__content--breaking {
+    margin-top: -1rem;
+  }
+  .card__content--digital {
+    margin-top: -1rem;
+  }
+  .card__content--spacex {
+    margin-top: -3rem;
+  }
+  .main__contacto {
     padding-left: 28rem;
-}
+  }
   .main__redes {
     margin-left: 28rem;
   }
   .footer {
-    margin-left: 28rem;
+    margin-left: 26.5rem;
   }
+}
+@media screen and (min-width: 1365px) {
+  .main__picture {
+    transform: translate(38rem, -14rem);
+    -webkit-transform: translate(38rem, -14rem);
+    -moz-transform: translate(38rem, -14rem);
+    -ms-transform: translate(38rem, -14rem);
+    -o-transform: translate(38rem, -14rem);
+  }
+  .main__logo__container {
+    transform: translate(1.5rem, 1rem);
+    -webkit-transform: translate(1.5rem, 1rem);
+    -moz-transform: translate(1.5rem, 1rem);
+    -ms-transform: translate(1.5rem, 1rem);
+    -o-transform: translate(1.5rem, 1rem);
+}
+.main__logos {
+    transform: translate(1.5rem, 13rem);
+    -webkit-transform: translate(1.5rem, 13rem);
+    -moz-transform: translate(1.5rem, 13rem);
+    -ms-transform: translate(1.5rem, 13rem);
+    -o-transform: translate(1.5rem, 13rem);
+}
 }
 @media screen and (min-width: 1366px) {
   .header {
@@ -2254,7 +2381,6 @@ h3 {
   .footer__container {
     max-width: 1440px;
   }
-
 }
 @media screen and (min-width: 1440px) {
   .header {
@@ -2271,32 +2397,31 @@ h3 {
     -o-transform: translate(42rem, -14rem);
   }
   .main__acerca {
-    margin-left: 29rem;
+    margin-left: 29.5rem;
   }
   .main__descargar {
-    padding-left: 25rem;
+    padding-left: 22rem;
   }
   .main__download {
     width: 46%;
   }
   .main__tecnologias {
-    padding-left: 4rem;
-    margin-top: 0;
+    padding-left: 25.5rem;
   }
   .main__proyectos {
     margin-left: 29rem;
   }
   .main__contacto {
-    padding-left: 29rem;
+    padding-left: 30rem;
   }
   .main__redes {
-    margin-left: 29rem;
+    margin-left: 30rem;
   }
   .footer__container {
     max-width: 1520px;
   }
   .footer {
-    margin-left: 29rem;
+    margin-left: 28.5rem;
   }
 }
 @media screen and (min-width: 1520px) {
@@ -2314,46 +2439,46 @@ h3 {
     -o-transform: translate(45rem, -14rem);
   }
   .main__acerca {
-    margin-left: 31rem;
+    margin-left: 32rem;
   }
   .main__description {
     margin-left: 11rem;
   }
   .main__descargar {
-    padding-left: 26rem;
+    padding-left: 24rem;
   }
   .main__tecnologias {
-    padding-left: 7rem;
+    padding-left: 28rem;
   }
   .main__descripcion {
-    padding-left: 5rem;
+    padding-left: 7rem;
   }
   .main__logo__container {
-    transform: translate(2rem, 1rem);
-    -webkit-transform: translate(2rem, 1rem);
-    -moz-transform: translate(2rem, 1rem);
-    -ms-transform: translate(2rem, 1rem);
-    -o-transform: translate(2rem, 1rem);
+    transform: translate(4rem, 1rem);
+    -webkit-transform: translate(4rem, 1rem);
+    -moz-transform: translate(4rem, 1rem);
+    -ms-transform: translate(4rem, 1rem);
+    -o-transform: translate(4rem, 1rem);
   }
   .main__logos {
-    transform: translate(2rem, 13rem);
-    -webkit-transform: translate(2rem, 13rem);
-    -moz-transform: translate(2rem, 13rem);
-    -ms-transform: translate(2rem, 13rem);
-    -o-transform: translate(2rem, 13rem);
+    transform: translate(4rem, 13rem);
+    -webkit-transform: translate(4rem, 13rem);
+    -moz-transform: translate(4rem, 13rem);
+    -ms-transform: translate(4rem, 13rem);
+    -o-transform: translate(4rem, 13rem);
   }
   .main__proyectos {
-    margin-left: 30rem;
+    margin-left: 31.5rem;
   }
   .main__cards__container {
     max-width: 1600px;
     margin-left: 4rem;
   }
   .main__contacto {
-    padding-left: 31rem;
+    padding-left: 32.5rem;
   }
   .main__redes {
-    margin-left: 31rem;
+    margin-left: 32.5rem;
   }
   .footer__container {
     max-width: 1600px;
@@ -2371,31 +2496,48 @@ h3 {
     -o-transform: translate(48rem, -14rem);
   }
   .main__acerca {
-    margin-left: 32rem;
+    margin-left: 34rem;
   }
   .main__description {
     margin-left: 13rem;
   }
   .main__descargar {
-    padding-left: 27rem;
+    padding-left: 26rem;
   }
   .main__tecnologias {
-    padding-left: 9rem;
+    padding-left: 30rem;
   }
   .main__descripcion {
-    padding-left: 7rem;
+    padding-left: 11rem;
+  }
+  .main__logo__container {
+    transform: translate(5.5rem, 1rem);
+    -webkit-transform: translate(5.5rem, 1rem);
+    -moz-transform: translate(5.5rem, 1rem);
+    -ms-transform: translate(5.5rem, 1rem);
+    -o-transform: translate(5.5rem, 1rem);
+  }
+  .main__logos {
+    transform: translate(5.5rem, 13rem);
+    -webkit-transform: translate(5.5rem, 13rem);
+    -moz-transform: translate(5.5rem, 13rem);
+    -ms-transform: translate(5.5rem, 13rem);
+    -o-transform: translate(5.5rem, 13rem);
   }
   .main__proyectos {
-    margin-left: 31.5rem;
+    margin-left: 33.5rem;
+  }
+  .main__cards__container {
+    margin-left: 6rem;
   }
   .main__contacto {
-    padding-left: 32rem;
+    padding-left: 35rem;
   }
   .main__redes {
-    margin-left: 32rem;
+    margin-left: 34.5rem;
   }
   .footer {
-    margin-left: 32rem;
+    margin-left: 33rem;
   }
 }
 @media screen and (min-width: 1600px) {
@@ -2405,6 +2547,9 @@ h3 {
   .main__container {
     max-width: 1700px;
   }
+  .main__title {
+    margin-left: 7rem;
+  }
   .main__picture {
     transform: translate(50rem, -14rem);
     -webkit-transform: translate(50rem, -14rem);
@@ -2413,33 +2558,33 @@ h3 {
     -o-transform: translate(50rem, -14rem);
   }
   .main__acerca {
-    margin-left: 34rem;
+    margin-left: 35rem;
   }
   .main__descargar {
-    padding-left: 29rem;
+    padding-left: 27rem;
   }
   .main__tecnologias {
-    padding-left: 14rem;
+    padding-left: 31rem;
   }
   .main__descripcion {
     padding-left: 13rem;
   }
   .main__logo__container {
-    transform: translate(5rem, 1rem);
-    -webkit-transform: translate(5rem, 1rem);
-    -moz-transform: translate(5rem, 1rem);
-    -ms-transform: translate(5rem, 1rem);
-    -o-transform: translate(5rem, 1rem);
+    transform: translate(6.5rem, 1rem);
+    -webkit-transform: translate(6.5rem, 1rem);
+    -moz-transform: translate(6.5rem, 1rem);
+    -ms-transform: translate(6.5rem, 1rem);
+    -o-transform: translate(6.5rem, 1rem);
   }
   .main__logos {
-    transform: translate(5rem, 13rem);
-    -webkit-transform: translate(5rem, 13rem);
-    -moz-transform: translate(5rem, 13rem);
-    -ms-transform: translate(5rem, 13rem);
-    -o-transform: translate(5rem, 13rem);
+    transform: translate(6.5rem, 13rem);
+    -webkit-transform: translate(6.5rem, 13rem);
+    -moz-transform: translate(6.5rem, 13rem);
+    -ms-transform: translate(6.5rem, 13rem);
+    -o-transform: translate(6.5rem, 13rem);
   }
   .main__proyectos {
-    margin-left: 34rem;
+    margin-left: 34.5rem;
   }
   .main__proyects {
     max-width: 1700px;
@@ -2452,10 +2597,10 @@ h3 {
     max-width: 1700px;
   }
   .main__contacto {
-    padding-left: 34rem;
+    padding-left: 35.5rem;
   }
   .main__redes {
-    margin-left: 34rem;
+    margin-left: 35.5rem;
   }
   .footer__container {
     max-width: 1700px;
@@ -2472,11 +2617,40 @@ h3 {
     height: 41rem;
   }
   .main__picture {
-    transform: translate(61rem, -14rem);
-    -webkit-transform: translate(61rem, -14rem);
-    -moz-transform: translate(61rem, -14rem);
-    -ms-transform: translate(61rem, -14rem);
-    -o-transform: translate(61rem, -14rem);
+    transform: translate(54rem, -14rem);
+    -webkit-transform: translate(54rem, -14rem);
+    -moz-transform: translate(54rem, -14rem);
+    -ms-transform: translate(54rem, -14rem);
+    -o-transform: translate(54rem, -14rem);
+  }
+  .main__acerca {
+    margin-left: 37rem;
+  }
+  .main__descargar {
+    padding-left: 29rem;
+  }
+  .main__tecnologias {
+    padding-left: 33rem;
+  }
+  .main__descripcion {
+    padding-left: 17rem;
+  }
+  .main__logo__container {
+    transform: translate(8.5rem, 1rem);
+    -webkit-transform: translate(8.5rem, 1rem);
+    -moz-transform: translate(8.5rem, 1rem);
+    -ms-transform: translate(8.5rem, 1rem);
+    -o-transform: translate(8.5rem, 1rem);
+  }
+  .main__logos {
+    transform: translate(8.5rem, 13rem);
+    -webkit-transform: translate(8.5rem, 13rem);
+    -moz-transform: translate(8.5rem, 13rem);
+    -ms-transform: translate(8.5rem, 13rem);
+    -o-transform: translate(8.5rem, 13rem);
+  }
+  .main__proyectos {
+    margin-left: 36.5rem;
   }
   .main__cards__container {
     max-width: 1700px;
@@ -2484,12 +2658,21 @@ h3 {
     height: 36rem;
   }
   .main__card--spacex {
-    transform: translate(50rem, -36rem);
-    -webkit-transform: translate(50rem, -36rem);
-    -moz-transform: translate(50rem, -36rem);
-    -ms-transform: translate(50rem, -36rem);
-    -o-transform: translate(50rem, -36rem);
+    transform: translate(49.5rem, -36rem);
+    -webkit-transform: translate(49.5rem, -36rem);
+    -moz-transform: translate(49.5rem, -36rem);
+    -ms-transform: translate(49.5rem, -36rem);
+    -o-transform: translate(49.5rem, -36rem);
     margin-left: 0;
+  }
+  .main__contacto {
+    padding-left: 37.5rem;
+  }
+  .main__redes {
+    margin-left: 37.5rem;
+  }
+  .footer {
+    margin-left: 36rem;
   }
 }
 @media screen and (min-width: 1680px) {
@@ -2497,11 +2680,11 @@ h3 {
     margin-left: 1.5rem;
   }
   .main__card--spacex {
-    transform: translate(1rem, 0);
-    -webkit-transform: translate(1rem, 0);
-    -moz-transform: translate(1rem, 0);
-    -ms-transform: translate(1rem, 0);
-    -o-transform: translate(1rem, 0);
+    transform: translate(0.1rem, 0);
+    -webkit-transform: translate(0.1rem, 0);
+    -moz-transform: translate(0.1rem, 0);
+    -ms-transform: translate(0.1rem, 0);
+    -o-transform: translate(0.1rem, 0);
   }
 }
 @media screen and (min-width: 1700px) {
@@ -2519,32 +2702,33 @@ h3 {
   }
   .main__description {
     margin-left: 15rem;
+    width: 81%;
   }
   .main__descargar {
-    padding-left: 33rem;
+    padding-left: 30rem;
   }
   .main__download {
     width: 55%;
   }
   .main__tecnologias {
-    padding-left: 21.5rem;
+    padding-left: 34rem;
   }
   .main__descripcion {
     padding-left: 19rem;
   }
   .main__logo__container {
-    transform: translate(9rem, 1rem);
-    -webkit-transform: translate(9rem, 1rem);
-    -moz-transform: translate(9rem, 1rem);
-    -ms-transform: translate(9rem, 1rem);
-    -o-transform: translate(9rem, 1rem);
+    transform: translate(10rem, 1rem);
+    -webkit-transform: translate(10rem, 1rem);
+    -moz-transform: translate(10rem, 1rem);
+    -ms-transform: translate(10rem, 1rem);
+    -o-transform: translate(10rem, 1rem);
   }
   .main__logos {
-    transform: translate(9rem, 13rem);
-    -webkit-transform: translate(9rem, 13rem);
-    -moz-transform: translate(9rem, 13rem);
-    -ms-transform: translate(9rem, 13rem);
-    -o-transform: translate(9rem, 13rem);
+    transform: translate(10rem, 13rem);
+    -webkit-transform: translate(10rem, 13rem);
+    -moz-transform: translate(10rem, 13rem);
+    -ms-transform: translate(10rem, 13rem);
+    -o-transform: translate(10rem, 13rem);
   }
   .main__proyectos {
     margin-left: 37.5rem;
@@ -2553,42 +2737,63 @@ h3 {
     max-width: 1800px;
   }
   .main__contacto {
-    padding-left: 37rem;
-  }
-  .main__redes {
-    margin-left: 37rem;
-  }
-  .footer__container {
-    max-width: 1800px;
-  }
-  .footer {
-    margin-left: 37rem;
-  }
-}
-@media screen and (min-width: 1760px) {
-  .main__acerca {
-    margin-left: 39rem;
-  }
-  .main__descargar {
-    padding-left: 34rem;
-  }
-  .main__tecnologias {
-    padding-left: 24rem;
-  }
-  .main__descripcion {
-    padding-left: 21rem;
-  }
-  .main__proyectos {
-    margin-left: 39rem;
-  }
-  .main__contacto {
     padding-left: 38rem;
   }
   .main__redes {
     margin-left: 38rem;
   }
+  .footer__container {
+    max-width: 1800px;
+  }
   .footer {
-    margin-left: 38rem;
+    margin-left: 36.5rem;
+  }
+}
+@media screen and (min-width: 1760px) {
+  .main__title {
+    margin-left: 10rem;
+  }
+  .main__acerca {
+    margin-left: 40rem;
+  }
+  .main__description {
+    margin-left: 17rem;
+    width: 75%;
+  }
+  .main__descargar {
+    padding-left: 32rem;
+  }
+  .main__tecnologias {
+    padding-left: 36rem;
+  }
+  .main__descripcion {
+    padding-left: 23rem;
+  }
+  .main__logo__container {
+    transform: translate(12rem, 1rem);
+    -webkit-transform: translate(12rem, 1rem);
+    -moz-transform: translate(12rem, 1rem);
+    -ms-transform: translate(12rem, 1rem);
+    -o-transform: translate(12rem, 1rem);
+  }
+  .main__logos {
+    transform: translate(12rem, 13rem);
+    -webkit-transform: translate(12rem, 13rem);
+    -moz-transform: translate(12rem, 13rem);
+    -ms-transform: translate(12rem, 13rem);
+    -o-transform: translate(12rem, 13rem);
+  }
+  .main__proyectos {
+    margin-left: 39.5rem;
+  }
+  .main__contacto {
+    padding-left: 40rem;
+  }
+  .main__redes {
+    margin-left: 40rem;
+  }
+  .footer {
+    margin-left: 38.5rem;
   }
 }
 @media screen and (min-width: 1800px) {
@@ -2599,73 +2804,69 @@ h3 {
     max-width: 1900px;
   }
   .main__picture {
-    transform: translate(66rem, -14rem);
-    -webkit-transform: translate(66rem, -14rem);
-    -moz-transform: translate(66rem, -14rem);
-    -ms-transform: translate(66rem, -14rem);
-    -o-transform: translate(66rem, -14rem);
+    transform: translate(60rem, -14rem);
+    -webkit-transform: translate(60rem, -14rem);
+    -moz-transform: translate(60rem, -14rem);
+    -ms-transform: translate(60rem, -14rem);
+    -o-transform: translate(60rem, -14rem);
   }
   .main__about {
     max-width: 1900px;
   }
   .main__acerca {
-    margin-left: 41rem;
+    margin-left: 40.5rem;
   }
-
+  .main__descargar {
+    padding-left: 33rem;
+  }
   .main__download {
     width: 70%;
   }
   .main__tecnologias {
-    padding-left: 26rem;
+    padding-left: 36.5rem;
   }
   .main__descripcion {
     padding-left: 24rem;
   }
-  .main__logo__container {
-    transform: translate(12rem, 1rem);
-    -webkit-transform: translate(12rem, 1rem);
-    -moz-transform: translate(12rem, 1rem);
-    -ms-transform: translate(12rem, 1rem);
-    -o-transform: translate(12rem, 1rem);
-}
-  .main__logos {
-    transform: translate(12rem, 13rem);
-    -webkit-transform: translate(12rem, 13rem);
-    -moz-transform: translate(12rem, 13rem);
-    -ms-transform: translate(12rem, 13rem);
-    -o-transform: translate(12rem, 13rem);
-}
   .main__proyectos {
-    margin-left: 40.5rem;
+    margin-left: 40rem;
   }
   .main__contact {
     max-width: 1900px;
   }
   .main__contacto {
-    padding-left: 41rem;
+    padding-left: 40.5rem;
   }
   .main__redes {
-    margin-left: 41rem;
+    margin-left: 40.5rem;
   }
   .footer__container {
     max-width: 1900px;
   }
   .footer {
-    margin-left: 40rem;
+    margin-left: 39rem;
   }
 }
 @media screen and (min-width: 1860px) {
   .main__acerca {
     margin-left: 43rem;
   }
+  .main__picture {
+    transform: translate(62rem, -14rem);
+    -webkit-transform: translate(62rem, -14rem);
+    -moz-transform: translate(62rem, -14rem);
+    -ms-transform: translate(62rem, -14rem);
+    -o-transform: translate(62rem, -14rem);
+}
   .main__description {
-    margin-left: 18rem;
+    margin-left: 20rem;
+        width: 71%;
   }
   .main__descargar {
-    padding-left: 36rem;
+    padding-left: 35rem;
   }
   .main__tecnologias {
-    padding-left: 31rem;
+    padding-left: 39rem;
   }
   .main__descripcion {
     padding-left: 30rem;
@@ -2676,20 +2877,20 @@ h3 {
     -moz-transform: translate(15rem, 1rem);
     -ms-transform: translate(15rem, 1rem);
     -o-transform: translate(15rem, 1rem);
-}
+  }
   .main__logos {
     transform: translate(15rem, 13rem);
     -webkit-transform: translate(15rem, 13rem);
     -moz-transform: translate(15rem, 13rem);
     -ms-transform: translate(15rem, 13rem);
     -o-transform: translate(15rem, 13rem);
-}
+  }
   .main__proyectos {
-    margin-left: 43rem;
+    margin-left: 42.5rem;
   }
   .main__cards__container {
     margin-left: 4rem;
-}
+  }
   .main__contacto {
     padding-left: 43rem;
   }
@@ -2697,7 +2898,7 @@ h3 {
     margin-left: 43rem;
   }
   .footer {
-    margin-left: 42rem;
+    margin-left: 41.5rem;
   }
 }
 @media screen and (min-width: 1900px) {
@@ -2708,12 +2909,15 @@ h3 {
     max-width: 2000px;
   }
   .main__picture {
-    transform: translate(68rem, -14rem);
-    -webkit-transform: translate(68rem, -14rem);
-    -moz-transform: translate(68rem, -14rem);
-    -ms-transform: translate(68rem, -14rem);
-    -o-transform: translate(68rem, -14rem);
-  }
+    transform: translate(66rem, -14rem);
+    -webkit-transform: translate(66rem, -14rem);
+    -moz-transform: translate(66rem, -14rem);
+    -ms-transform: translate(66rem, -14rem);
+    -o-transform: translate(66rem, -14rem);
+}
+.main__description {
+    width: 70%;
+}
   .main__about {
     max-width: 2000px;
   }
@@ -2721,30 +2925,30 @@ h3 {
     margin-left: 44rem;
   }
   .main__descargar {
-    padding-left: 37rem;
+    padding-left: 36rem;
   }
   .main__tecnologias {
-    padding-left: 33rem;
+    padding-left: 40rem;
   }
   .main__descripcion {
     padding-left: 32rem;
-}
+  }
   .main__logo__container {
     transform: translate(16rem, 1rem);
     -webkit-transform: translate(16rem, 1rem);
     -moz-transform: translate(16rem, 1rem);
     -ms-transform: translate(16rem, 1rem);
     -o-transform: translate(16rem, 1rem);
-}
-.main__logos {
+  }
+  .main__logos {
     transform: translate(16rem, 13rem);
     -webkit-transform: translate(16rem, 13rem);
     -moz-transform: translate(16rem, 13rem);
     -ms-transform: translate(16rem, 13rem);
     -o-transform: translate(16rem, 13rem);
-}
+  }
   .main__proyectos {
-    margin-left: 44rem;
+    margin-left: 43.5rem;
   }
   .main__cards__container {
     margin-left: 5rem;
@@ -2762,7 +2966,7 @@ h3 {
     margin-left: 44rem;
   }
   .footer {
-    margin-left: 43rem;
+    margin-left: 42rem;
   }
 }
 @media screen and (min-width: 1960px) {
@@ -2770,42 +2974,43 @@ h3 {
     margin-left: 46rem;
   }
   .main__description {
-    margin-left: 20rem;
+    margin-left: 22rem;
+    width: 67%;
   }
   .main__descripcion {
     padding-left: 35rem;
   }
   .main__descargar {
-    padding-left: 39rem;
+    padding-left: 38rem;
   }
   .main__download {
     width: 90%;
   }
   .main__tecnologias {
-    padding-left: 36.5rem;
+    padding-left: 42rem;
   }
   .main__logo__container {
-    transform: translate(17rem, 1rem);
-    -webkit-transform: translate(17rem, 1rem);
-    -moz-transform: translate(17rem, 1rem);
-    -ms-transform: translate(17rem, 1rem);
-    -o-transform: translate(17rem, 1rem);
+    transform: translate(17.5rem, 1rem);
+    -webkit-transform: translate(17.5rem, 1rem);
+    -moz-transform: translate(17.5rem, 1rem);
+    -ms-transform: translate(17.5rem, 1rem);
+    -o-transform: translate(17.5rem, 1rem);
 }
   .main__logos {
-    transform: translate(17rem, 13rem);
-    -webkit-transform: translate(17rem, 13rem);
-    -moz-transform: translate(17rem, 13rem);
-    -ms-transform: translate(17rem, 13rem);
-    -o-transform: translate(17rem, 13rem);
+    transform: translate(17.5rem, 13rem);
+    -webkit-transform: translate(17.5rem, 13rem);
+    -moz-transform: translate(17.5rem, 13rem);
+    -ms-transform: translate(17.5rem, 13rem);
+    -o-transform: translate(17.5rem, 13rem);
 }
   .main__proyectos {
     margin-left: 45.5rem;
   }
   .main__cards__container {
     margin-left: 7rem;
-}
+  }
   .main__contacto {
-    padding-left: 45.5rem;
+    padding-left: 46rem;
   }
   .main__redes {
     margin-left: 46rem;
@@ -2822,74 +3027,78 @@ h3 {
     max-width: 2060px;
   }
   .main__picture {
-    transform: translate(73rem, -14rem);
-    -webkit-transform: translate(73rem, -14rem);
-    -moz-transform: translate(73rem, -14rem);
-    -ms-transform: translate(73rem, -14rem);
-    -o-transform: translate(73rem, -14rem);
-  }
+    transform: translate(69rem, -14rem);
+    -webkit-transform: translate(69rem, -14rem);
+    -moz-transform: translate(69rem, -14rem);
+    -ms-transform: translate(69rem, -14rem);
+    -o-transform: translate(69rem, -14rem);
+}
   .main__about {
     max-width: 2060px;
   }
   .main__acerca {
-    margin-left: 47rem;
+    margin-left: 47.5rem;
   }
   .main__description {
-    margin-left: 22rem;
+    margin-left: 24rem;
+     width: 65%;
   }
   .main__descargar {
-    padding-left: 40rem;
+    padding-left: 39.5rem;
   }
   .main__tecnologias {
-    padding-left: 39rem;
+    padding-left: 43.5rem;
   }
   .main__descripcion {
-    padding-left: 38rem;
+    padding-left: 39rem;
   }
   .main__logo__container {
-    transform: translate(18rem, 1rem);
-    -webkit-transform: translate(18rem, 1rem);
-    -moz-transform: translate(18rem, 1rem);
-    -ms-transform: translate(18rem, 1rem);
-    -o-transform: translate(18rem, 1rem);
-  }
+    transform: translate(19rem, 1rem);
+    -webkit-transform: translate(19rem, 1rem);
+    -moz-transform: translate(19rem, 1rem);
+    -ms-transform: translate(19rem, 1rem);
+    -o-transform: translate(19rem, 1rem);
+}
   .main__logos {
-    transform: translate(18rem, 13rem);
-    -webkit-transform: translate(18rem, 13rem);
-    -moz-transform: translate(18rem, 13rem);
-    -ms-transform: translate(18rem, 13rem);
-    -o-transform: translate(18rem, 13rem);
-  }
+    transform: translate(19rem, 13rem);
+    -webkit-transform: translate(19rem, 13rem);
+    -moz-transform: translate(19rem, 13rem);
+    -ms-transform: translate(19rem, 13rem);
+    -o-transform: translate(19rem, 13rem);
+}
   .main__proyectos {
     margin-left: 47rem;
   }
   .main__cards__container {
-    margin-left: 7rem;
+    margin-left: 8rem;
   }
   .main__contact {
     max-width: 2060px;
   }
   .main__contacto {
-    padding-left: 46.5rem;
+    padding-left: 47rem;
   }
   .footer__container {
     max-width: 2060px;
   }
   .main__redes {
-    margin-left: 46.5rem;
+    margin-left: 47rem;
   }
   .footer {
-    margin-left: 45rem;
+    margin-left: 45.5rem;
   }
 }
 @media screen and (min-width: 2060px) {
+  .main__title {
+    margin-left: 11rem;
+}
   .main__picture {
-    transform: translate(76rem, -14rem);
-    -webkit-transform: translate(76rem, -14rem);
-    -moz-transform: translate(76rem, -14rem);
-    -ms-transform: translate(76rem, -14rem);
-    -o-transform: translate(76rem, -14rem);
-  }
+    transform: translate(72rem, -14rem);
+    -webkit-transform: translate(72rem, -14rem);
+    -moz-transform: translate(72rem, -14rem);
+    -ms-transform: translate(72rem, -14rem);
+    -o-transform: translate(72rem, -14rem);
+}
   .main__acerca {
     margin-left: 49rem;
   }
@@ -2897,44 +3106,44 @@ h3 {
     margin-left: 25rem;
   }
   .main__descargar {
-    padding-left: 42rem;
+    padding-left: 41rem;
   }
   .main__download {
     width: 110%;
   }
   .main__tecnologias {
-    padding-left: 42rem;
+    padding-left: 44.5rem;
   }
   .main__descripcion {
     padding-left: 42rem;
   }
   .main__logo__container {
-    transform: translate(20rem, 1rem);
-    -webkit-transform: translate(20rem, 1rem);
-    -moz-transform: translate(20rem, 1rem);
-    -ms-transform: translate(20rem, 1rem);
-    -o-transform: translate(20rem, 1rem);
-  }
+    transform: translate(20.5rem, 1rem);
+    -webkit-transform: translate(20.5rem, 1rem);
+    -moz-transform: translate(20.5rem, 1rem);
+    -ms-transform: translate(20.5rem, 1rem);
+    -o-transform: translate(20.5rem, 1rem);
+}
   .main__logos {
-    transform: translate(20rem, 13rem);
-    -webkit-transform: translate(20rem, 13rem);
-    -moz-transform: translate(20rem, 13rem);
-    -ms-transform: translate(20rem, 13rem);
-    -o-transform: translate(20rem, 13rem);
-  }
+    transform: translate(20.5rem, 13rem);
+    -webkit-transform: translate(20.5rem, 13rem);
+    -moz-transform: translate(20.5rem, 13rem);
+    -ms-transform: translate(20.5rem, 13rem);
+    -o-transform: translate(20.5rem, 13rem);
+}
   .main__proyectos {
-    margin-left: 49rem;
+    margin-left: 48rem;
   }
   .main__cards__container {
     margin-left: 9rem;
   }
   .main__contacto {
-    padding-left: 49rem;
+    padding-left: 48.5rem;
   }
   .main__redes {
-    margin-left: 49rem;
+    margin-left: 48.5rem;
   }
   .footer {
-    margin-left: 48rem;
+    margin-left: 47rem;
   }
 }
