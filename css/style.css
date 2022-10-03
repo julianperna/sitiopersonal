@@ -933,7 +933,7 @@ h3 {
     width: 110%;
   }
   .footer {
-    padding-left: 0rem;
+    padding-left: -.5rem;
   }
 }
 @media screen and (min-width: 384px) {
