@@ -936,6 +936,11 @@ h3 {
     padding-left: -0.5rem;
   }
 }
+@media screen and (min-width: 374px) {
+.main__contacto {
+    padding-left: 7rem;
+}
+}
 @media screen and (min-width: 384px) {
   .main__acerca {
     margin-left: 2rem;
@@ -984,13 +989,13 @@ h3 {
     width: 80%;
   }
   .main__tecnologias {
-    margin-left: 5rem;
+    margin-left: 4.5rem;
   }
   .main__proyectos {
     margin-left: 1rem;
   }
   .main__contacto {
-    margin-left: 1rem;
+    margin-left: .5rem;
   }
 }
 @media screen and (min-width: 425px) {
@@ -2352,7 +2357,7 @@ h3 {
   }
   .main__description {
     width: 84%;
-}
+  }
   .main__logo__container {
     transform: translate(1.5rem, 1rem);
     -webkit-transform: translate(1.5rem, 1rem);
@@ -2390,14 +2395,13 @@ h3 {
   .main__description {
     width: 81%;
     padding-left: 19rem;
-}
+  }
   .main__descargar {
     max-width: 54rem;
     margin-top: 0;
   }
   .main__tecnologias {
     margin-top: 2rem;
-
   }
 
   .footer__container {
@@ -2938,7 +2942,8 @@ h3 {
     -o-transform: translate(66rem, -15rem);
   }
   .main__description {
-    width: 70%;
+    width: 62%;
+    margin-left: 22rem;
   }
   .main__about {
     max-width: 2000px;
@@ -2996,8 +3001,8 @@ h3 {
     margin-left: 46rem;
   }
   .main__description {
-    margin-left: 22rem;
-    width: 67%;
+    margin-left: 24rem;
+    width: 60%;
   }
   .main__descripcion {
     padding-left: 35rem;
@@ -3062,8 +3067,8 @@ h3 {
     margin-left: 47.5rem;
   }
   .main__description {
-    margin-left: 24rem;
-    width: 65%;
+    margin-left: 25rem;
+    width: 59%;
   }
   .main__descargar {
     padding-left: 39.5rem;
@@ -3125,7 +3130,8 @@ h3 {
     margin-left: 49rem;
   }
   .main__description {
-    margin-left: 25rem;
+    margin-left: 27rem;
+    width: 57%;
   }
   .main__descargar {
     padding-left: 41rem;
@@ -3134,7 +3140,7 @@ h3 {
     width: 110%;
   }
   .main__tecnologias {
-    padding-left: 44.5rem;
+    padding-left: 45rem;
   }
   .main__descripcion {
     padding-left: 42rem;
