@@ -168,6 +168,7 @@ h3 {
 }
 .main__desarrollo {
   color: #00d9f5;
+  font-weight: bold;
 }
 .main__button {
   border-radius: 8px;
