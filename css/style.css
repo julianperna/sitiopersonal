@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Poppins:wght@400;700&display=swap');
 
 * {
   margin: 0;
@@ -404,13 +404,20 @@ h3 {
   background-position: center;
   max-width: 300px;
 }
+
 .card__content {
   padding: 10px;
   text-align: center;
   color: #cccccc;
-  font-family: "Poppins";
+font-family: 'Montserrat', sans-serif;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 400;
+}
+.card__title--relojeria{
+      margin-top: -1.5rem;
+}
+.card__title--breaking{
+      margin-top: -1.5rem;
 }
 .card__description {
   text-align: justify;
@@ -499,6 +506,7 @@ h3 {
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .card__content--veterinaria {
   height: 11rem;
   padding-top: 0px;
@@ -2330,7 +2338,7 @@ h3 {
     margin-top: -2rem;
   }
   .card__content--breaking {
-    margin-top: -1rem;
+    margin-top: -2.5rem;
   }
   .card__content--digital {
     margin-top: -1rem;
