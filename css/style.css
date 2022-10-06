@@ -382,7 +382,7 @@ h3 {
   align-items: center;
 }
 .main__card {
-  width: 100%;
+  width: 300px;
   height: 567px;
   margin-top: 10px;
   border: 1px solid;
@@ -478,6 +478,13 @@ font-family: 'Montserrat', sans-serif;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+.card__tecnologias--relojeria{
+    transform: translate(-2.5rem, 0rem);
+  -webkit-transform: translate(-2.5rem, 0rem);
+  -moz-transform: translate(-2.5rem, 0rem);
+  -ms-transform: translate(-2.5rem, 0rem);
+  -o-transform: translate(-2.5rem, 0rem);
 }
 .card__tecnologias--veterinaria {
   padding-left: 2.5rem;
@@ -2341,7 +2348,7 @@ font-family: 'Montserrat', sans-serif;
     margin-top: -2.5rem;
   }
   .card__content--digital {
-    margin-top: -1rem;
+    margin-top: -2.5rem;
   }
   .card__content--spacex {
     margin-top: -3rem;
