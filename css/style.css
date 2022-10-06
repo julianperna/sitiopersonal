@@ -151,7 +151,7 @@ svg {
   width: 100%;
   height: 260px;
   font-size: 1.5rem;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   scroll-margin-top: 10rem;
 }
 h3 {
@@ -176,7 +176,7 @@ h3 {
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
-  font-size: 15px;
+  font-size: 14px;
   border: 1px solid;
   color: black;
   background-color: aqua;
@@ -184,6 +184,7 @@ h3 {
   font-weight: bold;
   height: 40px;
   padding: 10px 10px;
+  font-family: "Poppins", sans-serif;
 }
 .main__button:hover {
   background-color: #2fc6da;
@@ -200,7 +201,8 @@ h3 {
   -moz-transform: translate(3rem, -1.5rem);
   -ms-transform: translate(3rem, -1.5rem);
   -o-transform: translate(3rem, -1.5rem);
-  font-size: 15px;
+  font-size: 14px;
+    font-family: "Poppins", sans-serif;
 }
 .main__download {
   font-size: 1rem;
@@ -238,7 +240,7 @@ h3 {
   max-width: 480px;
   width: 100%;
   font-size: 1rem;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   text-align: center;
   margin-left: -9px;
   padding-bottom: 15px;
@@ -372,7 +374,7 @@ h3 {
 .main__proyectos {
   padding-left: 4rem;
   padding-top: 10px;
-  font-family: "Open Sans", sans-serif;
+      font-family: "Poppins", sans-serif;
 }
 .main__cards__container {
   max-width: 480px;
@@ -543,7 +545,7 @@ font-family: 'Montserrat', sans-serif;
 }
 .main__contacto {
   padding-left: 4rem;
-  font-family: "Open Sans", sans-serif;
+     font-family: "Poppins", sans-serif;
 }
 .main__redes {
   display: flex;
@@ -552,6 +554,7 @@ font-family: 'Montserrat', sans-serif;
   max-width: 480px;
   width: 100%;
   color: #00d9f5;
+      font-family: "Poppins", sans-serif;
 }
 .fa-envelope {
   font-size: 2rem;
@@ -1325,7 +1328,7 @@ font-family: 'Montserrat', sans-serif;
     max-width: 768px;
   }
   .main__tecnologias {
-    padding-left: 9rem;
+    padding-left: 9.5rem;
     margin-top: 2rem;
   }
   .main__descripcion {
@@ -2318,9 +2321,7 @@ font-family: 'Montserrat', sans-serif;
     width: 85%;
     padding-left: 15rem;
   }
-  .main__download {
-    padding-left: 3px;
-  }
+
   .main__descargar {
     padding-left: 19.5rem;
   }
