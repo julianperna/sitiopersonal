@@ -965,7 +965,10 @@ font-family: 'Montserrat', sans-serif;
     padding-left: -.5rem;
   }
 }
-@media screen and (min-width: 374px) {
+@media screen and (min-width: 375px) {
+  .main__acerca {
+    margin-left: 2rem;
+}
 .main__contacto {
     padding-left: 7rem;
 }
