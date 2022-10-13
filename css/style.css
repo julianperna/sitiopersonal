@@ -883,7 +883,7 @@ h3 {
         width: 104%;
   }
   .main__tecnologias {
-    margin-left: 3.5rem;
+    margin-left: 3rem;
     margin-top: 0;
   }
   .main__logo__container {
@@ -954,7 +954,10 @@ h3 {
     margin-left: 1rem;
   }
   .main__contacto {
-    padding-left: 6.5rem;
+    padding-left: 6.8rem;
+  }
+  .main__logos {
+    margin-left: -1rem;
   }
   .main__redes {
     margin-left: 1.8rem;
