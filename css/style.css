@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Poppins:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Poppins:wght@400;700&display=swap");
 
 * {
   margin: 0;
@@ -165,7 +165,7 @@ h3 {
   line-height: 23px;
   max-width: 480px;
   transform: translate(0rem, -1rem);
-font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 .main__desarrollo {
   color: #00d9f5;
@@ -203,7 +203,7 @@ font-family: 'Open Sans', sans-serif;
   -ms-transform: translate(3rem, -1.5rem);
   -o-transform: translate(3rem, -1.5rem);
   font-size: 14px;
-    font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .main__download {
   font-size: 1rem;
@@ -375,7 +375,7 @@ font-family: 'Open Sans', sans-serif;
 .main__proyectos {
   padding-left: 4rem;
   padding-top: 10px;
-      font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .main__cards__container {
   max-width: 480px;
@@ -412,15 +412,15 @@ font-family: 'Open Sans', sans-serif;
   padding: 10px;
   text-align: center;
   color: #cccccc;
-font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 18px;
   font-weight: 400;
 }
-.card__title--relojeria{
-      margin-top: -1.5rem;
+.card__title--relojeria {
+  margin-top: -1.5rem;
 }
-.card__title--breaking{
-      margin-top: -1.5rem;
+.card__title--breaking {
+  margin-top: -1.5rem;
 }
 .card__description {
   text-align: justify;
@@ -483,15 +483,15 @@ font-family: 'Montserrat', sans-serif;
   background-position: center;
 }
 
-.card__tecnologias--relojeria{
-    transform: translate(-2.5rem, 0rem);
+.card__tecnologias--relojeria {
+  transform: translate(-2.5rem, 0rem);
   -webkit-transform: translate(-2.5rem, 0rem);
   -moz-transform: translate(-2.5rem, 0rem);
   -ms-transform: translate(-2.5rem, 0rem);
   -o-transform: translate(-2.5rem, 0rem);
 }
-.card__tecnologias--breaking{
-    padding-right: .4rem;
+.card__tecnologias--breaking {
+  padding-right: 0.4rem;
 }
 .card__tecnologias--veterinaria {
   padding-left: 2.5rem;
@@ -550,7 +550,7 @@ font-family: 'Montserrat', sans-serif;
 }
 .main__contacto {
   padding-left: 4rem;
-     font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .main__redes {
   display: flex;
@@ -559,7 +559,7 @@ font-family: 'Montserrat', sans-serif;
   max-width: 480px;
   width: 100%;
   color: #00d9f5;
-      font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .fa-envelope {
   font-size: 2rem;
@@ -679,14 +679,14 @@ font-family: 'Montserrat', sans-serif;
     margin-left: -1rem;
   }
   .main__acerca {
-    margin-left: .5rem;
+    margin-left: 0.5rem;
     width: 97%;
   }
   .main__technologies {
     height: 13rem;
   }
   .main__descripcion {
-    margin-left: .9rem;
+    margin-left: 0.9rem;
   }
   .main__description {
     padding-left: 25px;
@@ -704,7 +704,7 @@ font-family: 'Montserrat', sans-serif;
   }
   .main__logo__container {
     margin-left: 2.7rem;
-}
+  }
   .main__tecnologias {
     margin-left: 2rem;
     margin-top: 1rem;
@@ -744,14 +744,14 @@ font-family: 'Montserrat', sans-serif;
     -moz-transform: translate(1.4rem, 0rem);
     -ms-transform: translate(1.4rem, 0rem);
     -o-transform: translate(1.4rem, 0rem);
-}
+  }
   .fa-js {
     transform: translate(3.4rem, 0rem);
     -webkit-transform: translate(3.4rem, 0rem);
     -moz-transform: translate(3.4rem, 0rem);
     -ms-transform: translate(3.4rem, 0rem);
     -o-transform: translate(3.4rem, 0rem);
-}
+  }
   .fa-bootstrap {
     transform: translate(1.5rem, 2rem);
     -webkit-transform: translate(1.5rem, 2rem);
@@ -774,12 +774,12 @@ font-family: 'Montserrat', sans-serif;
     -o-transform: translate(0.3rem, 2rem);
   }
   .main__logo--css {
-    transform: translate(-.8rem, 2rem);
-    -webkit-transform: translate(-.8rem, 2rem);
-    -moz-transform: translate(-.8rem, 2rem);
-    -ms-transform: translate(-.8rem, 2rem);
-    -o-transform: translate(-.8rem, 2rem);
-}
+    transform: translate(-0.8rem, 2rem);
+    -webkit-transform: translate(-0.8rem, 2rem);
+    -moz-transform: translate(-0.8rem, 2rem);
+    -ms-transform: translate(-0.8rem, 2rem);
+    -o-transform: translate(-0.8rem, 2rem);
+  }
   .main__logo--js {
     transform: translate(-0.3rem, 2rem);
     -webkit-transform: translate(-0.3rem, 2rem);
@@ -850,7 +850,7 @@ font-family: 'Montserrat', sans-serif;
     -o-transform: translate(4rem);
   }
   .main__acerca {
-    margin-left: 1.9rem;
+    margin-left: 2rem;
   }
   .main__description {
     margin-left: 2rem;
@@ -880,14 +880,15 @@ font-family: 'Montserrat', sans-serif;
   }
   .main__technologies {
     height: 13.5rem;
-}
+        width: 104%;
+  }
   .main__tecnologias {
-    margin-left: 2.5rem;
+    margin-left: 2.8rem;
     margin-top: 0;
   }
   .main__logo__container {
     margin-left: 3.2rem;
-}
+  }
   .fa-css3 {
     color: blue;
     transform: translate(2.2rem, 0rem);
@@ -895,21 +896,21 @@ font-family: 'Montserrat', sans-serif;
     -moz-transform: translate(2.2rem, 0rem);
     -ms-transform: translate(2.2rem, 0rem);
     -o-transform: translate(2.2rem, 0rem);
-}
+  }
   .main__logo--css {
-    transform: translate(.1rem, 2rem);
-    -webkit-transform: translate(.1rem, 2rem);
-    -moz-transform: translate(.1rem, 2rem);
-    -ms-transform: translate(.1rem, 2rem);
-    -o-transform: translate(.1rem, 2rem);
-}
+    transform: translate(0.1rem, 2rem);
+    -webkit-transform: translate(0.1rem, 2rem);
+    -moz-transform: translate(0.1rem, 2rem);
+    -ms-transform: translate(0.1rem, 2rem);
+    -o-transform: translate(0.1rem, 2rem);
+  }
   .fa-js {
     transform: translate(4.8rem);
     -webkit-transform: translate(4.8rem);
     -moz-transform: translate(4.8rem);
     -ms-transform: translate(4.8rem);
     -o-transform: translate(4.8rem);
-}
+  }
   .main__logo--js {
     transform: translate(1rem, 2rem);
     -webkit-transform: translate(1rem, 2rem);
@@ -947,31 +948,31 @@ font-family: 'Montserrat', sans-serif;
     -o-transform: translate(0.3rem, 4rem);
   }
   .main__descripcion {
-    margin-left: 1.5rem;
+    margin-left: 2.3rem;
   }
   .main__proyects {
     margin-left: 1rem;
   }
   .main__contacto {
-    padding-left: 6.3rem;
+    padding-left: 6.5rem;
   }
   .main__redes {
-    margin-left: 1.5rem;
+    margin-left: 1.8rem;
   }
   .footer__container {
     width: 110%;
   }
   .footer {
-    padding-left: -.5rem;
+    padding-left: -0.5rem;
   }
 }
 @media screen and (min-width: 370px) {
   .main__acerca {
     margin-left: 2rem;
-}
-.main__contacto {
+  }
+  .main__contacto {
     padding-left: 7rem;
-}
+  }
 }
 @media screen and (min-width: 384px) {
   .main__acerca {
@@ -1027,7 +1028,7 @@ font-family: 'Montserrat', sans-serif;
     margin-left: 1rem;
   }
   .main__contacto {
-    margin-left: .5rem;
+    margin-left: 0.5rem;
   }
 }
 @media screen and (min-width: 425px) {
@@ -2356,14 +2357,14 @@ font-family: 'Montserrat', sans-serif;
     -moz-transform: translate(2.3rem, 0rem);
     -ms-transform: translate(2.3rem, 0rem);
     -o-transform: translate(2.3rem, 0rem);
-}
-.main__logo--css {
-    transform: translate(.1rem, 2rem);
-    -webkit-transform: translate(.1rem, 2rem);
-    -moz-transform: translate(.1rem, 2rem);
-    -ms-transform: translate(.1rem, 2rem);
-    -o-transform: translate(.1rem, 2rem);
-}
+  }
+  .main__logo--css {
+    transform: translate(0.1rem, 2rem);
+    -webkit-transform: translate(0.1rem, 2rem);
+    -moz-transform: translate(0.1rem, 2rem);
+    -ms-transform: translate(0.1rem, 2rem);
+    -o-transform: translate(0.1rem, 2rem);
+  }
   .main__proyectos {
     margin-left: 27rem;
   }
