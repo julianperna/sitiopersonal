@@ -852,6 +852,12 @@ h3 {
   }
 }
 @media screen and (min-width: 360px) {
+  .card__veterinaria {
+    margin-top: 1.5rem;
+  }
+  .card__content--breaking {
+    padding-bottom: 0.5rem;
+  }
   .main__picture {
     transform: translate(4rem);
     -webkit-transform: translate(4rem);
@@ -1929,6 +1935,9 @@ h3 {
   }
 }
 @media screen and (min-width: 1005px) {
+  .card__veterinaria {
+    margin-top: 0;
+  }
   .main__title {
     margin-left: 1rem;
   }
@@ -2402,7 +2411,7 @@ h3 {
     margin-top: -2rem;
   }
   .card__content--breaking {
-    margin-top: -2.5rem;
+    margin-top: -2rem;
     margin-bottom: 0.5rem;
   }
   .card__content--digital {
