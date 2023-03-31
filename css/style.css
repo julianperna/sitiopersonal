@@ -413,17 +413,21 @@ h3 {
   text-align: center;
   color: #cccccc;
   font-family: "Montserrat", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
 }
 .card__title--relojeria {
   margin-top: -1.5rem;
+  margin-bottom: 0.5rem;
 }
 .card__title--breaking {
   margin-top: -1.5rem;
 }
+.card__veterinaria {
+  padding-bottom: 0.5rem;
+}
 .card__description {
-  text-align: justify;
+  text-align: start;
 }
 .card__tecnologias {
   font-size: 15px;
@@ -527,6 +531,12 @@ h3 {
   width: 100%;
   padding-right: 5px;
   padding-left: 9px;
+}
+.card__content--digital {
+  padding-bottom: 0.5rem;
+}
+.card__content--spacex {
+  padding-bottom: 0.5rem;
 }
 .card__tecnologias--veterinaria {
   transform: translate(-2.5rem, 2rem);
@@ -880,7 +890,8 @@ h3 {
   }
   .main__technologies {
     height: 13.5rem;
-        width: 104%;
+    width: 104%;
+    margin-top: 3rem;
   }
   .main__tecnologias {
     margin-left: 3rem;
@@ -952,6 +963,7 @@ h3 {
   }
   .main__proyects {
     margin-left: 1rem;
+    margin-top: 3rem;
   }
   .main__contacto {
     padding-left: 6.8rem;
@@ -1804,24 +1816,34 @@ h3 {
     max-width: 1024px;
   }
   .main__card--relojeria:hover {
-    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 8px 5px rgba(224, 224, 224, 0.11);
-    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 8px 5px rgba(224, 224, 224, 0.11);
+    -webkit-box-shadow: 0px 10px 13px -7px #000000,
+      5px 5px 8px 5px rgba(224, 224, 224, 0.11);
+    box-shadow: 0px 10px 13px -7px #000000,
+      5px 5px 8px 5px rgba(224, 224, 224, 0.11);
   }
   .main__card--breaking:hover {
-    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 8px 5px rgba(224, 224, 224, 0.11);
-    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 8px 5px rgba(224, 224, 224, 0.11);
+    -webkit-box-shadow: 0px 10px 13px -7px #000000,
+      5px 5px 8px 5px rgba(224, 224, 224, 0.11);
+    box-shadow: 0px 10px 13px -7px #000000,
+      5px 5px 8px 5px rgba(224, 224, 224, 0.11);
   }
   .main__card--veterinaria:hover {
-    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 8px 5px rgba(224, 224, 224, 0.11);
-    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 8px 5px rgba(224, 224, 224, 0.11);
+    -webkit-box-shadow: 0px 10px 13px -7px #000000,
+      5px 5px 8px 5px rgba(224, 224, 224, 0.11);
+    box-shadow: 0px 10px 13px -7px #000000,
+      5px 5px 8px 5px rgba(224, 224, 224, 0.11);
   }
   .main__card--digital:hover {
-    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 8px 5px rgba(224, 224, 224, 0.11);
-    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 8px 5px rgba(224, 224, 224, 0.11);
+    -webkit-box-shadow: 0px 10px 13px -7px #000000,
+      5px 5px 8px 5px rgba(224, 224, 224, 0.11);
+    box-shadow: 0px 10px 13px -7px #000000,
+      5px 5px 8px 5px rgba(224, 224, 224, 0.11);
   }
   .main__card--spacex:hover {
-    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 8px 5px rgba(224, 224, 224, 0.11);
-    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 8px 5px rgba(224, 224, 224, 0.11);
+    -webkit-box-shadow: 0px 10px 13px -7px #000000,
+      5px 5px 8px 5px rgba(224, 224, 224, 0.11);
+    box-shadow: 0px 10px 13px -7px #000000,
+      5px 5px 8px 5px rgba(224, 224, 224, 0.11);
   }
   .main__contact {
     max-width: 1024px;
@@ -2165,6 +2187,7 @@ h3 {
   }
   .main__technologies {
     max-width: 1366px;
+    margin-top: 5rem;
   }
   .main__tecnologias {
     padding-left: 18.5rem;
@@ -2374,11 +2397,13 @@ h3 {
   .main__cards__container {
     margin-left: 2rem;
   }
+
   .card__content--relojeria {
     margin-top: -2rem;
   }
   .card__content--breaking {
     margin-top: -2.5rem;
+    margin-bottom: 0.5rem;
   }
   .card__content--digital {
     margin-top: -2.5rem;
@@ -2386,6 +2411,7 @@ h3 {
   .card__content--spacex {
     margin-top: -3rem;
   }
+
   .main__contacto {
     padding-left: 28rem;
   }
