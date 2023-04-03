@@ -867,17 +867,20 @@ h3 {
   }
   .main__acerca {
     margin-left: 2rem;
+    margin-top: 2rem;
   }
   .main__description {
     margin-left: 2rem;
     width: 94%;
     padding-left: 0;
+    margin-top: 0.5rem;
   }
   .main__container {
     width: 91%;
   }
   .main__descargar {
     margin-left: 3rem;
+    margin-top: 1rem;
   }
   .main__download {
     max-width: 9rem;
@@ -897,7 +900,7 @@ h3 {
   .main__technologies {
     height: 13.5rem;
     width: 104%;
-    margin-top: 3rem;
+    margin-top: 2rem;
   }
   .main__tecnologias {
     margin-left: 3rem;
@@ -969,7 +972,7 @@ h3 {
   }
   .main__proyects {
     margin-left: 1rem;
-    margin-top: 3rem;
+    margin-top: 1rem;
   }
   .main__contacto {
     padding-left: 6.8rem;
